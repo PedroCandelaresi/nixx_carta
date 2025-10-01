@@ -1,0 +1,202 @@
+{
+  "titulo": "Nixx Night",
+  "subtitulo": "Sabores intensos y cócteles de autor para la noche neuquina",
+  "categorias": [
+    {
+      "id": "bebidas",
+      "nombre": "Bebidas",
+      "descripcion": "Refrescos clásicos para acompañar la noche",
+      "items": [
+        {
+          "id": "agua",
+          "nombre": "Agua mineral patagónica",
+          "descripcion": "Presentación individual, con o sin gas",
+          "precio": 2100,
+          "etiquetas": ["sin alcohol", "ligero"]
+        },
+        {
+          "id": "gaseosa",
+          "nombre": "Gaseosa premium",
+          "descripcion": "Selección de sabores clásicos y zero",
+          "precio": 2500,
+          "etiquetas": ["burbujeante", "sin alcohol"]
+        },
+        {
+          "id": "cerveza",
+          "nombre": "Cerveza artesanal Andina",
+          "descripcion": "Golden ale tirada, producción neuquina",
+          "precio": 3600,
+          "etiquetas": ["cerveza", "regional"]
+        },
+        {
+          "id": "limonada",
+          "nombre": "Limonada casera",
+          "descripcion": "Limón, hierbabuena, jengibre y syrup de agave",
+          "precio": 3200,
+          "etiquetas": ["refrescante", "sin alcohol"]
+        },
+        {
+          "id": "kombucha",
+          "nombre": "Kombucha de frutos rojos",
+          "descripcion": "Fermento artesanal con berries patagónicos",
+          "precio": 3800,
+          "etiquetas": ["fermento", "sin alcohol"]
+        },
+        {
+          "id": "coldbrew",
+          "nombre": "Cold brew tonic",
+          "descripcion": "Café frío de origen neuquino con tónica y cítricos",
+          "precio": 4100,
+          "etiquetas": ["sin alcohol", "cafeína"]
+        }
+      ]
+    },
+    {
+      "id": "pizzas",
+      "nombre": "Pizzas",
+      "descripcion": "Masa madre horneada al momento",
+      "items": [
+        {
+          "id": "margherita",
+          "nombre": "Margherita",
+          "descripcion": "Salsa de tomates orgánicos, mozzarella fior di latte y albahaca fresca",
+          "precio": 7100,
+          "etiquetas": ["clásica", "vegetariana"]
+        },
+        {
+          "id": "picante",
+          "nombre": "Picante del chef",
+          "descripcion": "Pepperoni artesanal, jalapeños, miel picante y mozzarella",
+          "precio": 7800,
+          "etiquetas": ["picante"]
+        },
+        {
+          "id": "trufa",
+          "nombre": "Funghi trufado",
+          "descripcion": "Mix de hongos frescos, crema de trufa y parmesano",
+          "precio": 8400,
+          "etiquetas": ["gourmet", "vegetariana"]
+        },
+        {
+          "id": "ahumada",
+          "nombre": "Ahumada del sur",
+          "descripcion": "Salmón patagónico ahumado, queso de cabra y hojas de rúcula",
+          "precio": 8900,
+          "etiquetas": ["regional", "ahumado"]
+        },
+        {
+          "id": "vegana",
+          "nombre": "Vegana Andina",
+          "descripcion": "Queso plant based, calabaza asada, kale crocante y chimichurri",
+          "precio": 8200,
+          "etiquetas": ["vegana"]
+        },
+        {
+          "id": "cuatroquesos",
+          "nombre": "Cuatro quesos",
+          "descripcion": "Blend de quesos patagónicos con miel de monte",
+          "precio": 7600,
+          "etiquetas": ["clásica", "quesos"]
+        }
+      ]
+    },
+    {
+      "id": "platos",
+      "nombre": "Al plato",
+      "descripcion": "Propuestas con productos de estación",
+      "items": [
+        {
+          "id": "risotto",
+          "nombre": "Risotto de hongos",
+          "descripcion": "Arroz carnaroli con hongos de estación y parmesano",
+          "precio": 8200,
+          "etiquetas": ["vegetariano"]
+        },
+        {
+          "id": "entraña",
+          "nombre": "Entraña grillada",
+          "descripcion": "Entraña marinada con chimichurri y papines andinos",
+          "precio": 9600,
+          "etiquetas": ["carne", "grill"]
+        },
+        {
+          "id": "gnocchi",
+          "nombre": "Ñoquis de remolacha",
+          "descripcion": "Ñoquis caseros con crema de cabra y pesto de pistachos",
+          "precio": 7800,
+          "etiquetas": ["vegetariano", "casero"]
+        },
+        {
+          "id": "cordero",
+          "nombre": "Cordero braseado",
+          "descripcion": "Cordero patagónico, puré de topinambur y jugo de Malbec",
+          "precio": 10400,
+          "etiquetas": ["regional", "lenta cocción"]
+        },
+        {
+          "id": "pesca",
+          "nombre": "Pesca del día",
+          "descripcion": "Filet del Comahue, emulsión de limón y vegetales de estación",
+          "precio": 9100,
+          "etiquetas": ["pescado", "estacional"]
+        },
+        {
+          "id": "ensalada",
+          "nombre": "Ensalada tibia",
+          "descripcion": "Mix de hojas, cous cous especiado, queso azul y peras asadas",
+          "precio": 6900,
+          "etiquetas": ["ligero", "vegetariano"]
+        }
+      ]
+    },
+    {
+      "id": "tragos",
+      "nombre": "Tragos",
+      "descripcion": "Autores de la barra Nixx para la noche neuquina",
+      "items": [
+        {
+          "id": "nixx-sour",
+          "nombre": "Nixx Sour",
+          "descripcion": "Gin neuquino, cordial de sauco, limón y espuma de yerba mate",
+          "precio": 6200,
+          "etiquetas": ["firma", "cítrico"]
+        },
+        {
+          "id": "chacay",
+          "nombre": "Chacay ahumado",
+          "descripcion": "Whisky single malt, almíbar de chañar, bitter de cacao y humo de madera",
+          "precio": 6800,
+          "etiquetas": ["ahumado", "intenso"]
+        },
+        {
+          "id": "laguna",
+          "nombre": "Laguna turquesa",
+          "descripcion": "Vodka, licor de sauco, pepino macerado y agua tónica",
+          "precio": 6100,
+          "etiquetas": ["refrescante"]
+        },
+        {
+          "id": "bahia",
+          "nombre": "Bahía Desatada",
+          "descripcion": "Ron especiado, maracuyá, cordial de jengibre y bitter aromático",
+          "precio": 6400,
+          "etiquetas": ["tropical", "firma"]
+        },
+        {
+          "id": "cordillera",
+          "nombre": "Cordillera negroni",
+          "descripcion": "Gin de enebro, vermut patagónico y bitter de hierbas serranas",
+          "precio": 6300,
+          "etiquetas": ["amargo", "clásico"]
+        },
+        {
+          "id": "valle",
+          "nombre": "Valle Tonic",
+          "descripcion": "Ginebra de pera Williams, cordial de lavanda y tónica premium",
+          "precio": 6000,
+          "etiquetas": ["floral", "refrescante"]
+        }
+      ]
+    }
+  ]
+}

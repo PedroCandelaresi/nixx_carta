@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Adobe Handwriting';
+    src: local('Adobe Handwriting Ernie'), local('Adobe-Handwriting-Ernie'),
+        url('AdobeHandwriting-Ernie.woff2') format('woff2'),
+        url('AdobeHandwriting-Ernie.woff') format('woff'),
+        url('AdobeHandwriting-Ernie.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

@@ -1,0 +1,29 @@
+name: Build & Deploy (Docker, Next@3300)
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch: {}  # permite lanzarlo manualmente desde la pestaña Actions
+
+jobs:
+  build-and-deploy:
+    runs-on: [self-hosted, Linux, X64]   # usa los labels exactos de tu runner
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build image
+        run: docker build -t nixx-front:latest .
+
+      - name: Stop & remove old container
+        run: |
+          docker ps -aq --filter "name=nixx-front" | xargs -r docker stop
+          docker ps -aq --filter "name=nixx-front" | xargs -r docker rm
+
+      - name: Run new container on 3300
+        run: |
+          docker run -d \
+            --name nixx-front \
+            --restart unless-stopped \
+            -p 127.0.0.1:3300:3300 \
+            nixx-front:latest
