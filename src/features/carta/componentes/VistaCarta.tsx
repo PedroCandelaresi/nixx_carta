@@ -121,16 +121,11 @@ export function VistaCarta({ carta }: VistaCartaProps) {
       ) : (
         <div className="relative flex min-h-[260px] items-start justify-center pt-10 sm:pt-14">
           <Image
-            src="/logo_small.svg"
+            src="/marca_agua_nixx.svg?v=1"
             alt="Marca de agua Nixx"
             width={320}
             height={220}
-            className="pointer-events-none select-none opacity-75"
-            style={{
-              filter:
-                'drop-shadow(0 0 3px rgba(31, 0, 1, 0.35)) drop-shadow(0 0 8px rgba(31, 0, 1, 0.25))',
-              mixBlendMode: 'multiply',
-            }}
+            className="pointer-events-none select-none opacity-80"
           />
         </div>
       )}
