@@ -3,199 +3,93 @@
   "subtitulo": "Sabores intensos y cócteles de autor para la noche neuquina",
   "categorias": [
     {
-      "id": "bebidas",
-      "nombre": "Bebidas",
-      "descripcion": "Refrescos clásicos para acompañar la noche",
+      "id": "entradas",
+      "nombre": "Entradas / Tapeos",
+      "descripcion": "",
       "items": [
-        {
-          "id": "agua",
-          "nombre": "Agua mineral patagónica",
-          "descripcion": "Presentación individual, con o sin gas",
-          "precio": 2100,
-          "etiquetas": ["sin alcohol", "ligero"]
-        },
-        {
-          "id": "gaseosa",
-          "nombre": "Gaseosa premium",
-          "descripcion": "Selección de sabores clásicos y zero",
-          "precio": 2500,
-          "etiquetas": ["burbujeante", "sin alcohol"]
-        },
-        {
-          "id": "cerveza",
-          "nombre": "Cerveza artesanal Andina",
-          "descripcion": "Golden ale tirada, producción neuquina",
-          "precio": 3600,
-          "etiquetas": ["cerveza", "regional"]
-        },
-        {
-          "id": "limonada",
-          "nombre": "Limonada casera",
-          "descripcion": "Limón, hierbabuena, jengibre y syrup de agave",
-          "precio": 3200,
-          "etiquetas": ["refrescante", "sin alcohol"]
-        },
-        {
-          "id": "kombucha",
-          "nombre": "Kombucha de frutos rojos",
-          "descripcion": "Fermento artesanal con berries patagónicos",
-          "precio": 3800,
-          "etiquetas": ["fermento", "sin alcohol"]
-        },
-        {
-          "id": "coldbrew",
-          "nombre": "Cold brew tonic",
-          "descripcion": "Café frío de origen neuquino con tónica y cítricos",
-          "precio": 4100,
-          "etiquetas": ["sin alcohol", "cafeína"]
-        }
+        { "id": "rabas", "nombre": "Rabas", "descripcion": "", "precio": 10000, "etiquetas": ["Entradas/ tapeos"] },
+        { "id": "romana", "nombre": "A la romana", "descripcion": "Con salsa tártara fresca", "precio": 10000, "etiquetas": ["Entradas/ tapeos"] },
+        { "id": "langostinos", "nombre": "Langostinos rebozados", "descripcion": "Croquetas doradas con panko", "precio": 10000, "etiquetas": ["Entradas/ tapeos"] },
+        { "id": "alioli", "nombre": "Salsa alioli", "descripcion": "Clásica crema de ajo mediterránea", "precio": 10000, "etiquetas": ["Entradas/ tapeos"] },
+        { "id": "gambas", "nombre": "Gambas al ajillo", "descripcion": "Salteadas en aceite de oliva y ajo", "precio": 10000, "etiquetas": ["Entradas/ tapeos"] },
+        { "id": "mollejas", "nombre": "Mollejas al grill", "descripcion": "Asadas al punto justo", "precio": 10000, "etiquetas": ["Entradas/ tapeos"] },
+        { "id": "focaccia", "nombre": "Sobre tostón de focaccia", "descripcion": "Pan artesanal dorado", "precio": 10000, "etiquetas": ["Entradas/ tapeos"] },
+        { "id": "brochett", "nombre": "Brochett lomo / pollo", "descripcion": "Con verduras de estación grilladas", "precio": 10000, "etiquetas": ["Entradas/ tapeos"] },
+        { "id": "sorrentinos", "nombre": "Sorrentinos fritos de jamón y queso", "descripcion": "Con pesto patagónico", "precio": 10000, "etiquetas": ["Entradas/ tapeos"] },
+        { "id": "albondigas", "nombre": "Albóndigas a la pomarolla", "descripcion": "En salsa casera de tomate", "precio": 10000, "etiquetas": ["Entradas/ tapeos"] },
+        { "id": "papas-baston", "nombre": "Papas bastón", "descripcion": "Clásicas papas fritas crocantes", "precio": 10000, "etiquetas": ["Entradas/ tapeos"] },
+        { "id": "papas-rusticas", "nombre": "Papas rústicas", "descripcion": "Con piel, al estilo casero", "precio": 10000, "etiquetas": ["Entradas/ tapeos"] },
+        { "id": "papas-bravas", "nombre": "Papas bravas", "descripcion": "Con salsa picante española", "precio": 10000, "etiquetas": ["Entradas/ tapeos"] },
+        { "id": "provoleta", "nombre": "Provoleta", "descripcion": "Fundida con criolla, rúcula y tomates secos", "precio": 10000, "etiquetas": ["Entradas/ tapeos"] },
+        { "id": "escabeche", "nombre": "Mix de escabeche", "descripcion": "Verduras y carnes al estilo casero", "precio": 10000, "etiquetas": ["Entradas/ tapeos"] },
+        { "id": "tabla", "nombre": "Tabla para 2", "descripcion": "Selección de fiambres, tapeo y escabeches", "precio": 10000, "etiquetas": ["Entradas/ tapeos"] }
+      ]
+    },
+    {
+      "id": "principales",
+      "nombre": "Principales",
+      "descripcion": "",
+      "items": [
+        { "id": "ojo-bife", "nombre": "Ojo de bife", "descripcion": "Con papas rotas al romero y chimi ahumado", "precio": 10000, "etiquetas": ["Principales"] },
+        { "id": "toma-hock", "nombre": "Toma hock", "descripcion": "Servido con papas españolas, cebolla y morrones caramelizados a caballo, salsa criolla (ideal para compartir)", "precio": 10000, "etiquetas": ["Principales"] },
+        { "id": "salmon", "nombre": "Salmón grille", "descripcion": "Junto a salsa cítrica y papas noisette gratinadas", "precio": 10000, "etiquetas": ["Principales"] },
+        { "id": "entrana", "nombre": "Entraña grillada", "descripcion": "Con papas pai crocantes y chimi ahumado", "precio": 10000, "etiquetas": ["Principales"] },
+        { "id": "rib-cerdo", "nombre": "Rib de cerdo a la barbacoa", "descripcion": "Bañado en salsa BBQ, con batatas fritas, miel y merkén", "precio": 10000, "etiquetas": ["Principales"] },
+        { "id": "bondiola", "nombre": "Bondiola al dijon", "descripcion": "Coronada con peras y manzanas glaseadas", "precio": 10000, "etiquetas": ["Principales"] },
+        { "id": "pollo", "nombre": "Cuarto de pollo relleno", "descripcion": "Sobre puré suave de zanahoria", "precio": 10000, "etiquetas": ["Principales"] },
+        { "id": "chow-mein", "nombre": "Chow mein de spaguetti y vegetales / pollo / carne", "descripcion": "Salteado al wok con sabor oriental", "precio": 10000, "etiquetas": ["Principales"] },
+        { "id": "milanesas", "nombre": "Milanesas de ternera / pollo a caballo", "descripcion": "Con papas fritas doradas y huevo a la plancha", "precio": 10000, "etiquetas": ["Principales"] }
+      ]
+    },
+    {
+      "id": "ensaladas",
+      "nombre": "Ensaladas",
+      "descripcion": "",
+      "items": [
+        { "id": "mediterranea", "nombre": "Mediterránea", "descripcion": "Mix de verdes, queso brie, olivas, cherry y jamón crudo crocante", "precio": 10000, "etiquetas": ["Ensaladas"] },
+        { "id": "mar", "nombre": "Ensalada de mar", "descripcion": "Mix de verdes, cherry confitado, langostinos, kanikama, pulpo y mejillón", "precio": 10000, "etiquetas": ["Ensaladas"] },
+        { "id": "saludable", "nombre": "Ensalada saludable", "descripcion": "Mix de verdes, palta, garbanzo, pepino, queso, remolacha y semillas de calabaza", "precio": 10000, "etiquetas": ["Ensaladas"] },
+        { "id": "peras", "nombre": "Ensalada de peras", "descripcion": "Mix de verdes, espinaca, peras en aceto y queso azul", "precio": 10000, "etiquetas": ["Ensaladas"] }
+      ]
+    },
+    {
+      "id": "sandwiches",
+      "nombre": "Sanwhucheria",
+      "descripcion": "",
+      "items": [
+        { "id": "ojo-bife-sandwich", "nombre": "Ojo de bife", "descripcion": "Con provolone fundido, palta, tomates frescos y cebolla morada", "precio": 10000, "etiquetas": ["Sanwhucheria"] },
+        { "id": "lomo", "nombre": "Lomo", "descripcion": "Con lechuga fresca, tomates, huevo, jamón y queso", "precio": 10000, "etiquetas": ["Sanwhucheria"] },
+        { "id": "pollo-crespy", "nombre": "Pollo crespy", "descripcion": "Con guacamole casero, lechuga, tomates secos y queso", "precio": 10000, "etiquetas": ["Sanwhucheria"] },
+        { "id": "cerdo", "nombre": "Cerdo bondiolita", "descripcion": "Con rúcula, chucrut, huevo y papas pai", "precio": 10000, "etiquetas": ["Sanwhucheria"] },
+        { "id": "vegetariano", "nombre": "Vegetariano", "descripcion": "Con pan integral, queso, repollo morado/blanco, zanahoria, palta y huevo duro", "precio": 10000, "etiquetas": ["Sanwhucheria"] },
+        { "id": "hamburguesa", "nombre": "Hamburguesa clásica", "descripcion": "Doble medallón de carne, bacon crocante, lechuga, tomate, huevo y queso fundido", "precio": 10000, "etiquetas": ["Sanwhucheria"] }
       ]
     },
     {
       "id": "pizzas",
-      "nombre": "Pizzas",
-      "descripcion": "Masa madre horneada al momento",
+      "nombre": "Pizzas 8 porciones",
+      "descripcion": "",
       "items": [
-        {
-          "id": "margherita",
-          "nombre": "Margherita",
-          "descripcion": "Salsa de tomates orgánicos, mozzarella fior di latte y albahaca fresca",
-          "precio": 7100,
-          "etiquetas": ["clásica", "vegetariana"]
-        },
-        {
-          "id": "picante",
-          "nombre": "Picante del chef",
-          "descripcion": "Pepperoni artesanal, jalapeños, miel picante y mozzarella",
-          "precio": 7800,
-          "etiquetas": ["picante"]
-        },
-        {
-          "id": "trufa",
-          "nombre": "Funghi trufado",
-          "descripcion": "Mix de hongos frescos, crema de trufa y parmesano",
-          "precio": 8400,
-          "etiquetas": ["gourmet", "vegetariana"]
-        },
-        {
-          "id": "ahumada",
-          "nombre": "Ahumada del sur",
-          "descripcion": "Salmón patagónico ahumado, queso de cabra y hojas de rúcula",
-          "precio": 8900,
-          "etiquetas": ["regional", "ahumado"]
-        },
-        {
-          "id": "vegana",
-          "nombre": "Vegana Andina",
-          "descripcion": "Queso plant based, calabaza asada, kale crocante y chimichurri",
-          "precio": 8200,
-          "etiquetas": ["vegana"]
-        },
-        {
-          "id": "cuatroquesos",
-          "nombre": "Cuatro quesos",
-          "descripcion": "Blend de quesos patagónicos con miel de monte",
-          "precio": 7600,
-          "etiquetas": ["clásica", "quesos"]
-        }
+        { "id": "fugazetta", "nombre": "Fugazetta", "descripcion": "Con muzza, cebolla caramelizada y queso brie", "precio": 10000, "etiquetas": ["Pizzas 8 porciones"] },
+        { "id": "crudo-rucula", "nombre": "Jamón crudo y rúcula", "descripcion": "Fresco y clásico", "precio": 10000, "etiquetas": ["Pizzas 8 porciones"] },
+        { "id": "napolitana", "nombre": "Napolitana", "descripcion": "Con muzza, tomate y aceite de ajo", "precio": 10000, "etiquetas": ["Pizzas 8 porciones"] },
+        { "id": "cuatro-quesos", "nombre": "4 quesos", "descripcion": "Blend de muzza, azul, provolone y pategrás", "precio": 10000, "etiquetas": ["Pizzas 8 porciones"] },
+        { "id": "especial", "nombre": "Especial", "descripcion": "Con muzza, jamón y morrones", "precio": 10000, "etiquetas": ["Pizzas 8 porciones"] },
+        { "id": "palmitos", "nombre": "Palmitos", "descripcion": "Con muzza, jamón, palmitos y salsa golf", "precio": 10000, "etiquetas": ["Pizzas 8 porciones"] },
+        { "id": "hongos", "nombre": "Hongos", "descripcion": "Con muzza y hongos de estación", "precio": 10000, "etiquetas": ["Pizzas 8 porciones"] }
       ]
     },
     {
-      "id": "platos",
-      "nombre": "Al plato",
-      "descripcion": "Propuestas con productos de estación",
+      "id": "postres",
+      "nombre": "Postres",
+      "descripcion": "",
       "items": [
-        {
-          "id": "risotto",
-          "nombre": "Risotto de hongos",
-          "descripcion": "Arroz carnaroli con hongos de estación y parmesano",
-          "precio": 8200,
-          "etiquetas": ["vegetariano"]
-        },
-        {
-          "id": "entraña",
-          "nombre": "Entraña grillada",
-          "descripcion": "Entraña marinada con chimichurri y papines andinos",
-          "precio": 9600,
-          "etiquetas": ["carne", "grill"]
-        },
-        {
-          "id": "gnocchi",
-          "nombre": "Ñoquis de remolacha",
-          "descripcion": "Ñoquis caseros con crema de cabra y pesto de pistachos",
-          "precio": 7800,
-          "etiquetas": ["vegetariano", "casero"]
-        },
-        {
-          "id": "cordero",
-          "nombre": "Cordero braseado",
-          "descripcion": "Cordero patagónico, puré de topinambur y jugo de Malbec",
-          "precio": 10400,
-          "etiquetas": ["regional", "lenta cocción"]
-        },
-        {
-          "id": "pesca",
-          "nombre": "Pesca del día",
-          "descripcion": "Filet del Comahue, emulsión de limón y vegetales de estación",
-          "precio": 9100,
-          "etiquetas": ["pescado", "estacional"]
-        },
-        {
-          "id": "ensalada",
-          "nombre": "Ensalada tibia",
-          "descripcion": "Mix de hojas, cous cous especiado, queso azul y peras asadas",
-          "precio": 6900,
-          "etiquetas": ["ligero", "vegetariano"]
-        }
-      ]
-    },
-    {
-      "id": "tragos",
-      "nombre": "Tragos",
-      "descripcion": "Autores de la barra Nixx para la noche neuquina",
-      "items": [
-        {
-          "id": "nixx-sour",
-          "nombre": "Nixx Sour",
-          "descripcion": "Gin neuquino, cordial de sauco, limón y espuma de yerba mate",
-          "precio": 6200,
-          "etiquetas": ["firma", "cítrico"]
-        },
-        {
-          "id": "chacay",
-          "nombre": "Chacay ahumado",
-          "descripcion": "Whisky single malt, almíbar de chañar, bitter de cacao y humo de madera",
-          "precio": 6800,
-          "etiquetas": ["ahumado", "intenso"]
-        },
-        {
-          "id": "laguna",
-          "nombre": "Laguna turquesa",
-          "descripcion": "Vodka, licor de sauco, pepino macerado y agua tónica",
-          "precio": 6100,
-          "etiquetas": ["refrescante"]
-        },
-        {
-          "id": "bahia",
-          "nombre": "Bahía Desatada",
-          "descripcion": "Ron especiado, maracuyá, cordial de jengibre y bitter aromático",
-          "precio": 6400,
-          "etiquetas": ["tropical", "firma"]
-        },
-        {
-          "id": "cordillera",
-          "nombre": "Cordillera negroni",
-          "descripcion": "Gin de enebro, vermut patagónico y bitter de hierbas serranas",
-          "precio": 6300,
-          "etiquetas": ["amargo", "clásico"]
-        },
-        {
-          "id": "valle",
-          "nombre": "Valle Tonic",
-          "descripcion": "Ginebra de pera Williams, cordial de lavanda y tónica premium",
-          "precio": 6000,
-          "etiquetas": ["floral", "refrescante"]
-        }
+        { "id": "flan", "nombre": "Flan casero", "descripcion": "Con dulce de leche o crema", "precio": 10000, "etiquetas": ["Postres"] },
+        { "id": "tiramizu", "nombre": "Tiramizu", "descripcion": "Clásico italiano con cacao", "precio": 10000, "etiquetas": ["Postres"] },
+        { "id": "copa", "nombre": "Copa helada", "descripcion": "Variedad de sabores", "precio": 10000, "etiquetas": ["Postres"] },
+        { "id": "don-pedro", "nombre": "Don Pedro", "descripcion": "Helado con whisky y nueces", "precio": 10000, "etiquetas": ["Postres"] },
+        { "id": "strudel", "nombre": "Strudel de manzana", "descripcion": "Servido con helado de pistacho", "precio": 10000, "etiquetas": ["Postres"] },
+        { "id": "tortilla-peras", "nombre": "Tortilla de peras al ron", "descripcion": "Con helado de americana", "precio": 10000, "etiquetas": ["Postres"] }
       ]
     }
   ]
