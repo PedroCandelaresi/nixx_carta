@@ -121,7 +121,7 @@ export function VistaCarta({ carta }: VistaCartaProps) {
       ) : (
         <div className="relative flex min-h-[260px] items-start justify-center pt-10 sm:pt-14">
           <Image
-            src="/marca_agua_nixx.svg?v=1"
+            src="/marca_agua_nixx.svg"
             alt="Marca de agua Nixx"
             width={320}
             height={220}

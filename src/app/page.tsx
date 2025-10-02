@@ -4,7 +4,7 @@ import { CartaInteractiva } from '@/features/carta/componentes/CartaInteractiva'
 import { obtenerCarta } from '@/features/carta/servicios/obtenerCarta';
 
 export const metadata: Metadata = {
-  title: 'Carta digital',
+  title: 'Nixx resto',
 };
 
 export default async function PaginaPrincipal() {

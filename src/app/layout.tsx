@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nixx — Carta digital",
+  title: "Nixx resto",
   description:
     "Carta nocturna inmersiva del bar Nixx con navegación dinámica por categorías.",
   keywords: [
@@ -30,6 +30,10 @@ export const metadata: Metadata = {
   ],
   applicationName: "Nixx",
   authors: [{ name: "Nixx" }],
+  icons: {
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+    shortcut: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+  },
 };
 
 export default function RootLayout({
