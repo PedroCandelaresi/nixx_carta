@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useMemo, useState } from 'react';
 
 import { clsx } from 'clsx';
@@ -22,7 +23,7 @@ export function VistaCarta({ carta }: VistaCartaProps) {
     [carta.categorias],
   );
 
-  const { activo, seleccionar } = useTabsCarta({ categoriasIds: idsCategorias });
+  const { activo, seleccionar } = useTabsCarta({ categoriasIds: idsCategorias, inicial: '' });
 
   const [menuMovilAbierto, setMenuMovilAbierto] = useState<boolean>(false);
 
@@ -92,30 +93,47 @@ export function VistaCarta({ carta }: VistaCartaProps) {
           onSeleccionar={seleccionar}
         />
       </div>
-      {categoriaActual && (
-        <header className="flex flex-col gap-2">
-          <h2
-            className="text-3xl text-[var(--color-texto)] sm:text-[2.85rem]"
+      {categoriaActual ? (
+        <>
+          <header className="flex flex-col gap-2">
+            <h2
+              className="text-3xl text-[var(--color-texto)] sm:text-[2.85rem]"
+              style={{
+                fontFamily: familiaAdobeErnie,
+                letterSpacing: '-0.12em',
+                wordSpacing: '0.25rem',
+              }}
+            >
+              {categoriaActual.nombre}
+            </h2>
+            {categoriaActual.descripcion.length > 0 && (
+              <p className="font-cuerpo text-sm text-[var(--color-texto)]/70 sm:text-base">
+                {categoriaActual.descripcion}
+              </p>
+            )}
+          </header>
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6">
+            {categoriaActual.items.map((item) => (
+              <TarjetaItemCarta key={item.id} item={item} />
+            ))}
+          </div>
+        </>
+      ) : (
+        <div className="relative flex min-h-[260px] items-start justify-center pt-10 sm:pt-14">
+          <Image
+            src="/logo_small.svg"
+            alt="Marca de agua Nixx"
+            width={320}
+            height={220}
+            className="pointer-events-none select-none opacity-75"
             style={{
-              fontFamily: familiaAdobeErnie,
-              letterSpacing: '-0.12em',
-              wordSpacing: '0.25rem',
+              filter:
+                'drop-shadow(0 0 3px rgba(31, 0, 1, 0.35)) drop-shadow(0 0 8px rgba(31, 0, 1, 0.25))',
+              mixBlendMode: 'multiply',
             }}
-          >
-            {categoriaActual.nombre}
-          </h2>
-          {categoriaActual.descripcion.length > 0 && (
-            <p className="font-cuerpo text-sm text-[var(--color-texto)]/70 sm:text-base">
-              {categoriaActual.descripcion}
-            </p>
-          )}
-        </header>
+          />
+        </div>
       )}
-      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6">
-        {categoriaActual?.items.map((item) => (
-          <TarjetaItemCarta key={item.id} item={item} />
-        ))}
-      </div>
     </section>
   );
 }

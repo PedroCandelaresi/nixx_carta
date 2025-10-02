@@ -1,4 +1,4 @@
-import { familiasFuentes } from '@/ui/tipografia/nixxFuentes';
+import Image from 'next/image';
 
 interface EncabezadoCartaProps {
   titulo: string;
@@ -6,40 +6,31 @@ interface EncabezadoCartaProps {
 }
 
 export function EncabezadoCarta({ titulo, subtitulo }: EncabezadoCartaProps) {
-  const [principal, ...resto] = titulo.split(' ');
-  const secundario = resto.join(' ').trim() || 'Night';
-  const principalNormalizado = principal
-    ? principal.charAt(0).toUpperCase() + principal.slice(1).toLowerCase()
-    : 'Nixx';
-  const secundarioNormalizado = secundario.toLowerCase();
-
-  const familiaHelloParis = familiasFuentes.helloParis;
-  const familiaAdobeErnie = familiasFuentes.adobeErnie;
-
   return (
-    <header className="flex flex-col gap-5 text-left">
-      <div className="relative inline-block">
-        <span
-          className="block text-[4.05rem] font-normal text-[#f4ede4] leading-[0.64] sm:text-[5.25rem]"
-          style={{ fontFamily: familiaHelloParis, letterSpacing: '0.05em' }}
-        >
-          {principalNormalizado}
-        </span>
-        <span
-          className="pointer-events-none absolute z-10 lowercase text-[#1f0001] drop-shadow-[0_12px_20px_rgba(0,0,0,0.38)]"
+    <header className="flex flex-col items-center gap-3 text-center">
+      <div className="relative flex w-full items-center justify-center overflow-hidden py-2 sm:py-3">
+        <div
+          className="relative flex items-center justify-center"
           style={{
-            fontFamily: familiaAdobeErnie,
-            fontSize: '2.4rem',
-            bottom: '-1.8rem',
-            left: '12%',
-            transform: 'translateX(-45%)',
-            letterSpacing: '0.08em',
+            height: 'clamp(110px, 12vh, 200px)',
+            width: 'clamp(200px, 65vw, 420px)',
           }}
         >
-          {secundarioNormalizado}
-        </span>
+          <Image
+            src="/logo_big.svg"
+            alt={titulo}
+            width={280}
+            height={120}
+            priority
+            className="h-full w-full object-contain"
+            style={{
+              filter:
+                'drop-shadow(0 0 2px rgba(244, 237, 228, 0.8)) drop-shadow(0 0 6px rgba(244, 237, 228, 0.45)) drop-shadow(0 0 10px rgba(244, 237, 228, 0.25)) brightness(1.1)',
+            }}
+          />
+        </div>
       </div>
-      <p className="font-cuerpo max-w-2xl text-sm leading-relaxed text-[var(--color-texto)]/70 sm:text-base">
+      <p className="font-cuerpo max-w-2xl text-[0.60rem] tracking-[0.08em] text-[var(--color-texto)]/70 sm:text-base sm:leading-relaxed whitespace-nowrap">
         {subtitulo}
       </p>
     </header>
