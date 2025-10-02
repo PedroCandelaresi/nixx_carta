@@ -4,7 +4,7 @@
   "categorias": [
     {
       "id": "entradas",
-      "nombre": "Entradas / Tapeos",
+      "nombre": "Entradas y tapeos",
       "descripcion": "",
       "items": [
         { "id": "rabas", "nombre": "Rabas", "descripcion": "", "precio": 10000, "etiquetas": ["Entradas/ tapeos"] },

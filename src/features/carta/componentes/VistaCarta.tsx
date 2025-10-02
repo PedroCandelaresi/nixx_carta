@@ -100,7 +100,7 @@ export function VistaCarta({ carta }: VistaCartaProps) {
               className="text-3xl text-[var(--color-texto)] sm:text-[2.85rem]"
               style={{
                 fontFamily: familiaAdobeErnie,
-                letterSpacing: '-0.12em',
+                letterSpacing: '-0.001em',
                 wordSpacing: '0.25rem',
               }}
             >
