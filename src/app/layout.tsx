@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Nixx resto",
   description:
-    "Carta nocturna inmersiva del bar Nixx con navegación dinámica por categorías.",
+    "Carta Nixx resto.",
   keywords: [
     "nixx",
     "carta",
