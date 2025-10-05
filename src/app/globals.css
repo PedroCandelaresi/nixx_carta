@@ -101,6 +101,15 @@ body {
   letter-spacing: 0.08em;
 }
 
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 h1,
 h2,
 h3,

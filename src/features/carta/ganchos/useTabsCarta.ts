@@ -13,7 +13,7 @@ interface ResultadoTabs {
 }
 
 export function useTabsCarta({ categoriasIds, inicial }: OpcionesTabs): ResultadoTabs {
-  const idInicial = inicial !== undefined
+  const idInicial = inicial && categoriasIds.includes(inicial)
     ? inicial
     : categoriasIds[0] ?? '';
 

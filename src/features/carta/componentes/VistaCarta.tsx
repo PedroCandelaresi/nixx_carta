@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import { useMemo, useState } from 'react';
 
 import { clsx } from 'clsx';
@@ -11,11 +10,25 @@ import { familiasFuentes } from '@/ui/tipografia/nixxFuentes';
 
 import { EncabezadoCarta } from './EncabezadoCarta';
 import { MenuCategorias } from './MenuCategorias';
+import { CarruselSubcategorias } from './CarruselSubcategorias';
 import { TarjetaItemCarta } from './TarjetaItemCarta';
 
 interface VistaCartaProps {
   carta: CartaDigital;
 }
+
+const scrollToTopOfPage = () => {
+  if (typeof window === 'undefined') {
+    return;
+  }
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  if (typeof document !== 'undefined') {
+    document.documentElement?.scrollTo?.({ top: 0, behavior: 'smooth' });
+    document.body?.scrollTo?.({ top: 0, behavior: 'smooth' });
+  }
+};
 
 export function VistaCarta({ carta }: VistaCartaProps) {
   const idsCategorias = useMemo(
@@ -23,26 +36,49 @@ export function VistaCarta({ carta }: VistaCartaProps) {
     [carta.categorias],
   );
 
-  const { activo, seleccionar } = useTabsCarta({ categoriasIds: idsCategorias, inicial: '' });
+  const idInicialCategoria = useMemo(() => {
+    if (idsCategorias.includes('bebidas')) {
+      return 'bebidas';
+    }
+    return idsCategorias[0] ?? '';
+  }, [idsCategorias]);
+
+  const { activo, seleccionar } = useTabsCarta({
+    categoriasIds: idsCategorias,
+    inicial: idInicialCategoria,
+  });
 
   const [menuMovilAbierto, setMenuMovilAbierto] = useState<boolean>(false);
 
   const manejarSeleccion = (categoriaId: string) => {
     seleccionar(categoriaId);
     setMenuMovilAbierto(false);
+    scrollToTopOfPage();
   };
 
   const categoriaActual = carta.categorias.find((categoria) => categoria.id === activo);
+
+  if (!categoriaActual) {
+    return null;
+  }
+
+  const tieneSubcategorias =
+    !!categoriaActual.subcategorias && categoriaActual.subcategorias.length > 0;
+  const itemsCategoria = categoriaActual.items ?? [];
   const familiaAdobeErnie = familiasFuentes.adobeErnie;
 
   return (
     <section className="flex flex-col gap-8 sm:gap-10">
       <EncabezadoCarta titulo={carta.titulo} subtitulo={carta.subtitulo} />
+
+      {/* Menú móvil */}
       <div className="sm:hidden">
         <button
           type="button"
           onClick={() => setMenuMovilAbierto((abierto) => !abierto)}
           className="flex w-full items-center justify-between rounded-2xl border border-[var(--color-subrayado)]/40 bg-[var(--color-fondo)]/60 px-4 py-3 text-left text-sm uppercase tracking-[0.32em] text-[var(--color-texto)]/70"
+          aria-expanded={menuMovilAbierto}
+          aria-controls="menu-categorias-movil"
         >
           Menú
           <span className="flex h-8 w-8 items-center justify-center rounded-full border border-[var(--color-subrayado)]/30 bg-[var(--color-fondo)]/60 shadow-[0_0_18px_rgba(244,194,183,0.18)]">
@@ -72,10 +108,12 @@ export function VistaCarta({ carta }: VistaCartaProps) {
             </span>
           </span>
         </button>
+
         <div
+          id="menu-categorias-movil"
           className={clsx(
-            'overflow-hidden transition-all duration-300',
-            menuMovilAbierto ? 'max-h-[420px] py-4' : 'max-h-0',
+            'transition-all duration-300',
+            menuMovilAbierto ? 'max-h-screen overflow-y-auto py-4' : 'max-h-0 overflow-hidden',
           )}
         >
           <MenuCategorias
@@ -86,6 +124,8 @@ export function VistaCarta({ carta }: VistaCartaProps) {
           />
         </div>
       </div>
+
+      {/* Menú desktop */}
       <div className="hidden sm:block">
         <MenuCategorias
           categorias={carta.categorias}
@@ -93,42 +133,43 @@ export function VistaCarta({ carta }: VistaCartaProps) {
           onSeleccionar={seleccionar}
         />
       </div>
-      {categoriaActual ? (
-        <>
-          <header className="flex flex-col gap-2">
-            <h2
-              className="text-3xl text-[var(--color-texto)] sm:text-[2.85rem]"
-              style={{
-                fontFamily: familiaAdobeErnie,
-                letterSpacing: '-0.001em',
-                wordSpacing: '0.25rem',
-              }}
-            >
-              {categoriaActual.nombre}
-            </h2>
-            {categoriaActual.descripcion.length > 0 && (
-              <p className="font-cuerpo text-sm text-[var(--color-texto)]/70 sm:text-base">
-                {categoriaActual.descripcion}
-              </p>
-            )}
-          </header>
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6">
-            {categoriaActual.items.map((item) => (
+
+      {/* ===== Grupo: Título de categoría + contenido (con menos separación entre sí) ===== */}
+      <div className="flex flex-col gap-4.5 sm:gap-4">
+        <header className="flex flex-col gap-2">
+          <h2
+            className="text-3xl text-[var(--color-texto)] sm:text-[2.85rem]"
+            style={{
+              fontFamily: familiaAdobeErnie,
+              letterSpacing: '-0.001em',
+              wordSpacing: '0.25rem',
+            }}
+          >
+            {categoriaActual.nombre}
+          </h2>
+
+          {categoriaActual.descripcion.length > 0 && (
+            <p className="font-cuerpo text-sm text-[var(--color-texto)]/70 sm:text-base">
+              {categoriaActual.descripcion}
+            </p>
+          )}
+        </header>
+
+        {tieneSubcategorias ? (
+          <CarruselSubcategorias
+            tituloCategoria={categoriaActual.nombre}
+            subcategorias={categoriaActual.subcategorias ?? []}
+            familiaTitulo={familiaAdobeErnie}
+          />
+        ) : (
+          <div className="grid grid-cols-1 gap-1.5 sm:grid-cols-2 sm:gap-6">
+            {itemsCategoria.map((item) => (
               <TarjetaItemCarta key={item.id} item={item} />
             ))}
           </div>
-        </>
-      ) : (
-        <div className="relative flex min-h-[260px] items-start justify-center pt-10 sm:pt-14">
-          <Image
-            src="/marca_agua_nixx.svg"
-            alt="Marca de agua Nixx"
-            width={320}
-            height={220}
-            className="pointer-events-none select-none opacity-80"
-          />
-        </div>
-      )}
+        )}
+      </div>
+      {/* ===== Fin grupo ===== */}
     </section>
   );
 }

@@ -22,6 +22,9 @@ export function MenuCategorias({
       <nav aria-label="Categorías de la carta" className="flex flex-col gap-3">
         {categorias.map((categoria) => {
           const activa = categoria.id === categoriaActiva;
+          const totalOpciones = categoria.items?.length
+            ?? categoria.subcategorias?.reduce((total, subcategoria) => total + subcategoria.items.length, 0)
+            ?? 0;
           return (
             <button
               key={categoria.id}
@@ -38,7 +41,7 @@ export function MenuCategorias({
                 {categoria.nombre}
               </span>
               <span className="font-cuerpo text-xs font-semibold uppercase tracking-[0.28em] text-[var(--color-texto)]/55">
-                {categoria.items.length.toString().padStart(2, '0')} opciones
+                {totalOpciones.toString().padStart(2, '0')} opciones
               </span>
             </button>
           );
@@ -52,6 +55,9 @@ export function MenuCategorias({
       <div className="flex items-end justify-start gap-6 overflow-x-auto pb-4">
         {categorias.map((categoria) => {
           const activa = categoria.id === categoriaActiva;
+          const totalOpciones = categoria.items?.length
+            ?? categoria.subcategorias?.reduce((total, subcategoria) => total + subcategoria.items.length, 0)
+            ?? 0;
           return (
             <button
               key={categoria.id}
@@ -74,14 +80,13 @@ export function MenuCategorias({
                   }`}
                 />
                 <span className="font-cuerpo text-xs font-semibold uppercase tracking-[0.35em] text-[var(--color-texto)]/60">
-                  {categoria.items.length.toString().padStart(2, '0')}
+                  {totalOpciones.toString().padStart(2, '0')}
                 </span>
               </span>
             </button>
           );
         })}
       </div>
-      <div className="absolute inset-x-0 bottom-0 h-px bg-[var(--color-resaltado)]/30" aria-hidden="true" />
     </nav>
   );
 }

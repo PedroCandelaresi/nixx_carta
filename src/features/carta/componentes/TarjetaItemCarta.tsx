@@ -9,7 +9,7 @@ export function TarjetaItemCarta({ item }: TarjetaItemCartaProps) {
   const { nombre, descripcion, etiquetas, precio } = item;
 
   return (
-    <article className="relative isolate overflow-hidden rounded-3xl border border-[var(--color-resaltado)]/35 bg-[rgba(28,8,9,0.82)] px-5 py-6 shadow-[0_12px_28px_rgba(0,0,0,0.45)]">
+    <article className="relative isolate overflow-hidden rounded-3xl border border-[var(--color-resaltado)]/35 bg-[rgba(28,8,9,0.82)] px-5 py-6">
       <div className="flex flex-col gap-4">
         <header className="flex items-start justify-between gap-3">
           <h3 className="font-cuerpo text-base font-bold uppercase tracking-[0.24em] text-[var(--color-texto)]">
