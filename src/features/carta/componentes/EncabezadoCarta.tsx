@@ -23,10 +23,6 @@ export function EncabezadoCarta({ titulo, subtitulo }: EncabezadoCartaProps) {
             height={120}
             priority
             className="h-full w-full object-contain"
-            style={{
-              filter:
-                'drop-shadow(0 0 2px rgba(244, 237, 228, 0.8)) drop-shadow(0 0 6px rgba(244, 237, 228, 0.45)) drop-shadow(0 0 10px rgba(244, 237, 228, 0.25)) brightness(1.1)',
-            }}
           />
         </div>
       </div>
