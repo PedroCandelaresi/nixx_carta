@@ -1,6 +1,6 @@
 {
   "titulo": "Nixx Night",
-  "subtitulo": "Sabores intensos y cócteles de autor para la noche neuquina",
+  "subtitulo": "Somos fuego eterno.",
   "categorias": [
     {
       "id": "entradas",
@@ -489,7 +489,7 @@
             {
               "id": "luna-llena",
               "nombre": "Luna llena",
-              "descripcion": "Absolut de mango, jugo de limón, almíbar, licor Parfait y arándanos (ex Flor de luna)",
+              "descripcion": "Absolut de mango, jugo de limón, almíbar, licor Parfait y arándanos",
               "precio": 10000,
               "etiquetas": [
                 "Bebidas",
@@ -499,7 +499,7 @@
             {
               "id": "fuego",
               "nombre": "Fuego",
-              "descripcion": "Gin Beefeater, reducción de vino blanco, limón, bitter angostura y perfume de naranja (ex De donde hubo fuego)",
+              "descripcion": "Gin Beefeater, reducción de vino blanco, limón, bitter angostura y perfume de naranja",
               "precio": 10000,
               "etiquetas": [
                 "Bebidas",
@@ -529,7 +529,7 @@
             {
               "id": "cuba-rocas",
               "nombre": "Cuba a las rocas",
-              "descripcion": "Ron Havanna, coco y ananá (ex No tan santo)",
+              "descripcion": "Ron Havanna, coco y ananá",
               "precio": 10000,
               "etiquetas": [
                 "Bebidas",
@@ -569,7 +569,7 @@
             {
               "id": "dolca",
               "nombre": "Dolca",
-              "descripcion": "Malibú, cordial de banana, chocolate blanco, ananá, Borghetti y sauco (ex Don't touch monkey)",
+              "descripcion": "Malibú, cordial de banana, chocolate blanco, ananá, Borghetti y sauco",
               "precio": 10000,
               "etiquetas": [
                 "Bebidas",
@@ -579,7 +579,7 @@
             {
               "id": "pink",
               "nombre": "Pink",
-              "descripcion": "Beefeater Pink, Malibú, maracuyá, cordial de frutos rojos y pomelo rosado (ex Tusa en agosto)",
+              "descripcion": "Beefeater Pink, Malibú, maracuyá, cordial de frutos rojos y pomelo rosado",
               "precio": 10000,
               "etiquetas": [
                 "Bebidas",
@@ -636,7 +636,7 @@
             {
               "id": "puebla",
               "nombre": "Puebla",
-              "descripcion": "Pomelo, frutilla, limón, amargo serrano y soda (ex Dr. Jones)",
+              "descripcion": "Pomelo, frutilla, limón, amargo serrano y soda",
               "precio": 10000,
               "etiquetas": [
                 "Bebidas",

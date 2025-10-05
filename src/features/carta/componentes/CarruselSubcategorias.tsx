@@ -198,27 +198,35 @@ export function CarruselSubcategorias({ tituloCategoria, subcategorias, familiaT
       return tituloSubcategoriaTexto;
     }
 
-    const coincidenciaRedBull = tituloSubcategoriaTexto.match(/red bull/i);
-    if (!coincidenciaRedBull || coincidenciaRedBull.index === undefined) {
+    const partes = tituloSubcategoriaTexto.split(/red bull/i);
+
+    if (partes.length !== 2) {
       return tituloSubcategoriaTexto;
     }
 
-    const inicio = coincidenciaRedBull.index;
-    const fin = inicio + coincidenciaRedBull[0].length;
-    const antes = tituloSubcategoriaTexto.slice(0, inicio).trimEnd();
-    const despues = tituloSubcategoriaTexto.slice(fin).trimStart();
+    const [antesSinTrim, despuesSinTrim] = partes;
+    const antes = antesSinTrim.trimEnd();
+    const despues = despuesSinTrim.trimStart();
 
     return (
       <span className="flex items-center justify-center gap-2">
-        {antes.length > 0 && <span className="pr-2.5">{antes}</span>}
+        {antes.length > 0 && (
+          <span className="pr-2">
+            {antes}
+          </span>
+        )}
         <Image
           src={logoSubcategoria.src}
           alt={logoSubcategoria.alt}
-          width={140}
-          height={40}
+          width={148}
+          height={44}
           className="h-8 w-auto select-none object-contain sm:h-9"
         />
-        {despues.length > 0 && <span>{despues}</span>}
+        {despues.length > 0 && (
+          <span className="pl-2">
+            {despues}
+          </span>
+        )}
       </span>
     );
   }, [logoSubcategoria, tituloSubcategoriaTexto]);
