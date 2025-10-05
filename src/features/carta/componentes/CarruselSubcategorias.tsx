@@ -193,6 +193,7 @@ export function CarruselSubcategorias({ tituloCategoria, subcategorias, familiaT
   const subcategoriaVisible = subcategorias[indiceVisible] ?? subcategorias[indiceActivo] ?? subcategorias[0];
   const logoSubcategoria = subcategoriaVisible ? logosSubcategorias[subcategoriaVisible.id] : undefined;
   const tituloSubcategoriaTexto = subcategoriaVisible?.nombre ?? tituloCategoria;
+  const logosParaPreload = useMemo(() => Object.values(logosSubcategorias), []);
   const tituloSubcategoriaRender = useMemo(() => {
     if (!logoSubcategoria) {
       return tituloSubcategoriaTexto;
@@ -220,6 +221,7 @@ export function CarruselSubcategorias({ tituloCategoria, subcategorias, familiaT
           alt={logoSubcategoria.alt}
           width={148}
           height={44}
+          priority
           className="h-8 w-auto select-none object-contain sm:h-9"
         />
         {despues.length > 0 && (
@@ -247,6 +249,11 @@ export function CarruselSubcategorias({ tituloCategoria, subcategorias, familiaT
 
   return (
     <section aria-label={`Opciones de ${tituloCategoria}`} className="flex flex-col gap-4 sm:gap-5">
+      <div aria-hidden className="pointer-events-none sr-only">
+        {logosParaPreload.map((logo) => (
+          <Image key={logo.src} src={logo.src} alt={logo.alt} width={1} height={1} priority />
+        ))}
+      </div>
       <header className="flex flex-col items-center gap-3 sm:gap-1.5">
         <div className="flex w-full items-center justify-between gap-2.5 sm:gap-4">
           <div className="flex-shrink-0">
