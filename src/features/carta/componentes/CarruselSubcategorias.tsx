@@ -2,7 +2,15 @@
 'use client';
 
 import Image from 'next/image';
-import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import {
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useMemo,
+  useRef,
+  useState,
+  type ReactNode,
+} from 'react';
 
 import { clsx } from 'clsx';
 
@@ -25,6 +33,10 @@ const logosSubcategorias: Record<string, { src: string; alt: string }> = {
     alt: 'Red Bull',
   },
 };
+
+// Retardo para actualizar el título visible del carrusel
+// Ajustado para suavizar el cambio al paginar y al deslizar
+const DEBOUNCE_TITULO_MS = 200;
 
 const scrollToTopOfPage = () => {
   if (typeof window === 'undefined') {
@@ -54,7 +66,7 @@ export function CarruselSubcategorias({ tituloCategoria, subcategorias, familiaT
       temporizadorVisibleRef.current = setTimeout(() => {
         setIndiceVisible((previo) => (previo === nuevoIndice ? previo : nuevoIndice));
         temporizadorVisibleRef.current = null;
-      }, 140);
+      }, DEBOUNCE_TITULO_MS);
     },
     [],
   );
@@ -158,15 +170,13 @@ export function CarruselSubcategorias({ tituloCategoria, subcategorias, familiaT
       const nuevoIndice = Math.min(Math.max(indiceActivo + delta, 0), tarjetas.length - 1);
       centrarIndice(nuevoIndice);
       setIndiceActivo(nuevoIndice);
-      if (temporizadorVisibleRef.current) {
-        clearTimeout(temporizadorVisibleRef.current);
-        temporizadorVisibleRef.current = null;
-      }
-      setIndiceVisible(nuevoIndice);
+      // Actualizamos el título de forma diferida para evitar parpadeo
+      // mientras el scroll suave reposiciona el carrusel.
+      programarVisible(nuevoIndice);
 
       requestAnimationFrame(actualizarEstadoYActivo);
     },
-    [indiceActivo, centrarIndice, actualizarEstadoYActivo],
+    [indiceActivo, centrarIndice, actualizarEstadoYActivo, programarVisible],
   );
 
   useEffect(() => {
@@ -290,25 +300,25 @@ export function CarruselSubcategorias({ tituloCategoria, subcategorias, familiaT
             />
           </div>
         </div>
-        <div className="flex w-full items-center justify-center gap-2 sm:gap-3">
-          <div className="flex max-w-xl flex-col items-center gap-1.5 text-center sm:gap-2">
-            <h3
-              className="text-2xl text-[var(--color-texto)] sm:text-[2.4rem]"
-              style={{
-                fontFamily: familiaTitulo,
-                letterSpacing: '-0.001em',
-                wordSpacing: '0.25rem',
-              }}
-            >
-              {tituloSubcategoriaRender}
-            </h3>
-          </div>
+        <div className="flex w-full items-center justify-center">
+          <h3
+            key={subcategoriaVisible?.id ?? 'sin-subcategoria'}
+            className="animate-[fadeInUp_220ms_ease-out] text-2xl text-[var(--color-texto)] sm:text-[2.4rem] transition-opacity duration-200"
+            style={{
+              fontFamily: familiaTitulo,
+              letterSpacing: '-0.001em',
+              wordSpacing: '0.25rem',
+              willChange: 'opacity, transform',
+            }}
+          >
+            {tituloSubcategoriaRender}
+          </h3>
         </div>
       </header>
       <div className="relative">
         <div
           ref={contenedorRef}
-          className="no-scrollbar flex items-start snap-x snap-mandatory gap-6 overflow-x-auto overflow-y-hidden scroll-smooth transition-[height] duración-300 ease-out"
+          className="no-scrollbar flex items-start snap-x snap-mandatory gap-6 overflow-x-auto overflow-y-hidden scroll-smooth transition-[height] duration-300 ease-out"
           style={{
             WebkitOverflowScrolling: 'touch',
             height: alturaActiva ? `${alturaActiva + 24}px` : undefined,
