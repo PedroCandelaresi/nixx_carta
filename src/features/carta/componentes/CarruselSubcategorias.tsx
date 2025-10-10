@@ -27,10 +27,14 @@ interface EstadoDesplazamiento {
   puedeAvanzar: boolean;
 }
 
-const logosSubcategorias: Record<string, { src: string; alt: string }> = {
+const logosSubcategorias: Record<string, { src: string; alt: string; marcaAgua?: { src: string; alt: string } }> = {
   'tragos-redbull': {
     src: '/redbull.png',
     alt: 'Red Bull',
+    marcaAgua: {
+      src: '/redbull_lata.svg',
+      alt: 'Red Bull',
+    },
   },
 };
 
@@ -324,49 +328,67 @@ export function CarruselSubcategorias({ tituloCategoria, subcategorias, familiaT
             height: alturaActiva ? `${alturaActiva + 24}px` : undefined,
           }}
         >
-          {subcategorias.map((subcategoria, indice) => (
-            <article
-              key={subcategoria.id}
-              data-carrusel-item
-              aria-current={indice === indiceActivo ? 'true' : undefined}
-              className={clsx(
-                ' w-full max-w-[420px] flex-shrink-0 snap-center rounded-3xl border border-[var(--color-resaltado)]/35 bg-[rgba(28,8,9,0.82)] p-6 text-[var(--color-texto)] transition-colors duration-200 sm:max-w-[460px] sm:p-7',
-                indice === indiceActivo
-                  ? 'border-[var(--color-destacado)]/45'
-                  : 'border-[var(--color-resaltado)]/35',
-              )}
-              ref={(elemento) => {
-                tarjetasRef.current[indice] = elemento;
-              }}
-            >
-              <ul className="flex flex-col gap-4">
-                {subcategoria.items.map((item) => (
-                  <li key={item.id} className="flex flex-col gap-2 border-b border-[var(--color-subrayado)]/20 pb-4 last:border-none last:pb-0">
-                    <div className="flex items-start justify-between gap-4">
-                      <div className="flex flex-col">
-                        <span className="font-cuerpo text-lg font-semibold tracking-[0.06em]">
-                          {item.nombre}
-                        </span>
-                        {item.descripcion.length > 0 && (
-                          <span className="font-cuerpo text-sm text-[var(--color-texto)]/75">
-                            {item.descripcion}
+          {subcategorias.map((subcategoria, indice) => {
+            const configuracionSubcategoria = logosSubcategorias[subcategoria.id];
+            const marcaAgua = configuracionSubcategoria?.marcaAgua;
+
+            return (
+              <article
+                key={subcategoria.id}
+                data-carrusel-item
+                aria-current={indice === indiceActivo ? 'true' : undefined}
+                className={clsx(
+                  'relative w-full max-w-[420px] flex-shrink-0 snap-center overflow-hidden rounded-3xl border border-[var(--color-resaltado)]/35 bg-[rgba(28,8,9,0.82)] p-6 text-[var(--color-texto)] transition-colors duration-200 sm:max-w-[460px] sm:p-7',
+                  indice === indiceActivo
+                    ? 'border-[var(--color-destacado)]/45'
+                    : 'border-[var(--color-resaltado)]/35',
+                )}
+                ref={(elemento) => {
+                  tarjetasRef.current[indice] = elemento;
+                }}
+              >
+                {marcaAgua && (
+                  <span aria-hidden className="pointer-events-none absolute inset-0 flex items-center justify-center">
+                    <span className="relative flex h-full w-full max-h-[78%] max-w-[78%] items-center justify-center rounded-[2.25rem] bg-[rgba(17,6,7,0.62)] p-6 sm:max-h-[72%] sm:max-w-[72%] sm:p-8">
+                      <Image
+                        src={marcaAgua.src}
+                        alt={marcaAgua.alt}
+                        fill
+                        sizes="(min-width: 640px) 460px, 320px"
+                        className="pointer-events-none select-none object-contain opacity-30 brightness-55 saturate-105"
+                      />
+                    </span>
+                  </span>
+                )}
+                <ul className="relative z-10 flex flex-col gap-4">
+                  {subcategoria.items.map((item) => (
+                    <li key={item.id} className="flex flex-col gap-2 border-b border-[var(--color-subrayado)]/20 pb-4 last:border-none last:pb-0">
+                      <div className="flex items-start justify-between gap-4">
+                        <div className="flex flex-col">
+                          <span className="font-cuerpo text-lg font-semibold tracking-[0.06em]">
+                            {item.nombre}
                           </span>
-                        )}
+                          {item.descripcion.length > 0 && (
+                            <span className="font-cuerpo text-sm text-[var(--color-texto)]/75">
+                              {item.descripcion}
+                            </span>
+                          )}
+                        </div>
+                        <span className="font-cuerpo text-lg font-semibold text-[var(--color-texto)]/90">
+                          ${item.precio.toLocaleString('es-AR')}
+                        </span>
                       </div>
-                      <span className="font-cuerpo text-lg font-semibold text-[var(--color-texto)]/90">
-                        ${item.precio.toLocaleString('es-AR')}
-                      </span>
-                    </div>
-                    {item.etiquetas.length > 0 && (
-                      <span className="font-cuerpo text-[0.65rem] uppercase tracking-[0.35em] text-[var(--color-texto)]/50">
-                        {item.etiquetas.join(' • ')}
-                      </span>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </article>
-          ))}
+                      {item.etiquetas.length > 0 && (
+                        <span className="font-cuerpo text-[0.65rem] uppercase tracking-[0.35em] text-[var(--color-texto)]/50">
+                          {item.etiquetas.join(' • ')}
+                        </span>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </article>
+            );
+          })}
         </div>
       </div>
     </section>

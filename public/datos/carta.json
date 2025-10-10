@@ -8,108 +8,97 @@
       "descripcion": "",
       "subcategorias": [
         {
-          "id": "tragos-autor",
-          "nombre": "Tragos de autor",
-          "descripcion": "Recetas exclusivas de la barra Nixx.",
+          "id": "tragos_autor",
+          "nombre": "Tragos de Autor",
           "items": [
             {
-              "id": "luna-llena",
-              "nombre": "Luna llena",
-              "descripcion": "Absolut de mango, jugo de limón, almíbar, licor Parfait y arándanos.",
+              "id": "dolca",
+              "nombre": "Dolca",
+              "descripcion": "Malibú, cordial de banana, chocolate blanco, ananá, Borguetti, sauco.",
               "precio": 20000,
               "etiquetas": [
-                "Bebidas",
-                "Tragos de autor"
+                "Tragos de Autor"
               ]
             },
             {
               "id": "fuego",
               "nombre": "Fuego",
-              "descripcion": "Gin Beefeater, reducción de vino blanco, limón, bitter angostura y perfume de naranja.",
+              "descripcion": "Gin Beefeater, reducción de vino blanco, limón, bitter angostura, perfume de naranja.",
               "precio": 20000,
               "etiquetas": [
-                "Bebidas",
-                "Tragos de autor"
+                "Tragos de Autor"
               ]
             },
             {
-              "id": "pera-spritz",
-              "nombre": "Pera Spritz",
-              "descripcion": "Absolut de pera, vermouth bianco y espumante.",
+              "id": "luna_llena",
+              "nombre": "Luna Llena",
+              "descripcion": "Absolut de mango, jugo de limón, almíbar, licor Parfait, arándanos.",
               "precio": 20000,
               "etiquetas": [
-                "Bebidas",
-                "Tragos de autor"
+                "Tragos de Autor"
               ]
             },
             {
-              "id": "old-butter",
-              "nombre": "Old Butter",
-              "descripcion": "Whisky escocés, mantequilla de maní y avellanas.",
-              "precio": 20000,
-              "etiquetas": [
-                "Bebidas",
-                "Tragos de autor"
-              ]
-            },
-            {
-              "id": "cuba-rocas",
-              "nombre": "Cuba a las rocas",
-              "descripcion": "Ron Havanna, coco y ananá.",
-              "precio": 20000,
-              "etiquetas": [
-                "Bebidas",
-                "Tragos de autor"
-              ]
-            },
-            {
-              "id": "oasis",
+              "id": "oasIs",
               "nombre": "Oasis",
-              "descripcion": "Ron Havanna, blue curaçao, limón, ananá y espumante.",
+              "descripcion": "Ron Havanna, Blue Curaçao, limón, ananá, espumante.",
               "precio": 20000,
               "etiquetas": [
-                "Bebidas",
-                "Tragos de autor"
+                "Tragos de Autor"
               ]
             },
             {
-              "id": "saralfin",
-              "nombre": "Saralfin",
-              "descripcion": "Ron Havanna, licor Parfait, menta, naranja, almíbar y tónica.",
+              "id": "old_butter",
+              "nombre": "Old Butter",
+              "descripcion": "Whisky escocés, mantequilla de maní, avellanas.",
               "precio": 20000,
               "etiquetas": [
-                "Bebidas",
-                "Tragos de autor"
+                "Tragos de Autor"
               ]
             },
             {
-              "id": "violet",
-              "nombre": "Violet",
-              "descripcion": "Gin Beefeater infusionado con lavanda, vermouth macerado con moras y licor Parfait.",
+              "id": "pera_spritz",
+              "nombre": "Pera Spritz",
+              "descripcion": "Absolut de pera, vermouth bianco, espumante.",
               "precio": 20000,
               "etiquetas": [
-                "Bebidas",
-                "Tragos de autor"
-              ]
-            },
-            {
-              "id": "dolca",
-              "nombre": "Dolca",
-              "descripcion": "Malibú, cordial de banana, chocolate blanco, ananá, Borghetti y sauco.",
-              "precio": 20000,
-              "etiquetas": [
-                "Bebidas",
-                "Tragos de autor"
+                "Tragos de Autor"
               ]
             },
             {
               "id": "pink",
               "nombre": "Pink",
-              "descripcion": "Beefeater Pink, Malibú, maracuyá, cordial de frutos rojos y pomelo rosado.",
+              "descripcion": "Beefeater Pink, Malibú, maracuyá, cordial de frutos rojos, pomelo rosado.",
               "precio": 20000,
               "etiquetas": [
-                "Bebidas",
-                "Tragos de autor"
+                "Tragos de Autor"
+              ]
+            },
+            {
+              "id": "saralfin",
+              "nombre": "Saralfin",
+              "descripcion": "Ron Havanna, licor Parfait, menta, naranja, almíbar, tónica.",
+              "precio": 20000,
+              "etiquetas": [
+                "Tragos de Autor"
+              ]
+            },
+            {
+              "id": "violet",
+              "nombre": "Violet",
+              "descripcion": "Gin Beefeater infusionado con lavanda, vermouth macerado con moras, licor Parfait.",
+              "precio": 20000,
+              "etiquetas": [
+                "Tragos de Autor"
+              ]
+            },
+            {
+              "id": "cuba_a_las_rocas",
+              "nombre": "Cuba a las Rocas",
+              "descripcion": "Ron Havanna, coco, ananá.",
+              "precio": 20000,
+              "etiquetas": [
+                "Tragos de Autor"
               ]
             }
           ]
@@ -600,7 +589,7 @@
                 "Sin alcohol"
               ]
             },
-                        {
+            {
               "id": "schweppes-pomelo",
               "nombre": "Schweppes Pomelo",
               "descripcion": "",
