@@ -25,7 +25,6 @@
 html {
   scroll-behavior: smooth;
   background-color: #000;
-  overscroll-behavior-y: contain;
 }
 
 body {

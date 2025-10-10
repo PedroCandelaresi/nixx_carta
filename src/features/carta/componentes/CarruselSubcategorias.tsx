@@ -41,6 +41,14 @@ const logosSubcategorias: Record<string, { src: string; alt: string; marcaAgua?:
 // Ajustado para suavizar el cambio al paginar y al deslizar
 const DEBOUNCE_TITULO_MS = 200;
 
+const scrollToTopOfPage = () => {
+  if (typeof window === 'undefined') {
+    return;
+  }
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
 export function CarruselSubcategorias({ tituloCategoria, subcategorias, familiaTitulo }: CarruselSubcategoriasProps) {
   const contenedorRef = useRef<HTMLDivElement>(null);
   const tarjetasRef = useRef<Array<HTMLElement | null>>([]);
@@ -184,6 +192,16 @@ export function CarruselSubcategorias({ tituloCategoria, subcategorias, familiaT
     elemento.addEventListener('scroll', manejarScroll, { passive: true });
     return () => elemento.removeEventListener('scroll', manejarScroll);
   }, [actualizarEstadoYActivo]);
+
+  const indicePrevioRef = useRef(indiceActivo);
+
+  useEffect(() => {
+    const previo = indicePrevioRef.current;
+    if (previo !== indiceActivo) {
+      scrollToTopOfPage();
+    }
+    indicePrevioRef.current = indiceActivo;
+  }, [indiceActivo]);
 
   const subcategoriaVisible = subcategorias[indiceVisible] ?? subcategorias[indiceActivo] ?? subcategorias[0];
   const tituloSubcategoriaTexto = subcategoriaVisible?.nombre ?? tituloCategoria;
