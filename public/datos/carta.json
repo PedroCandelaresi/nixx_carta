@@ -555,6 +555,84 @@
           ]
         },
         {
+          "id": "vinos",
+          "nombre": "Vinos",
+          "items": [
+            {
+              "id": "copa_dv_catena_cabernet_malbec",
+              "nombre": "Copa DV Catena Cabernet - Malbec",
+              "descripcion": "",
+              "precio": 18000,
+              "etiquetas": [
+                "Vinos"
+              ]
+            },
+            {
+              "id": "dv_catena_cabernet_cabernet",
+              "nombre": "DV Catena Cabernet - Cabernet",
+              "descripcion": "",
+              "precio": 45000,
+              "etiquetas": [
+                "Vinos"
+              ]
+            },
+            {
+              "id": "dv_catena_cabernet_malbec",
+              "nombre": "DV Catena Cabernet - Malbec",
+              "descripcion": "",
+              "precio": 30000,
+              "etiquetas": [
+                "Vinos"
+              ]
+            },
+            {
+              "id": "dv_catena_chardonnay",
+              "nombre": "DV Catena Chardonnay",
+              "descripcion": "",
+              "precio": 45000,
+              "etiquetas": [
+                "Vinos"
+              ]
+            },
+            {
+              "id": "dv_catena_malbec_malbec",
+              "nombre": "DV Catena Malbec - Malbec",
+              "descripcion": "",
+              "precio": 45000,
+              "etiquetas": [
+                "Vinos"
+              ]
+            },
+            {
+              "id": "dv_catena_pinot_pinot",
+              "nombre": "DV Catena Pinot - Pinot",
+              "descripcion": "",
+              "precio": 45000,
+              "etiquetas": [
+                "Vinos"
+              ]
+            },
+            {
+              "id": "saurus_reserva_familia_malbec",
+              "nombre": "Saurus Reserva de Familia Malbec",
+              "descripcion": "",
+              "precio": 65000,
+              "etiquetas": [
+                "Vinos"
+              ]
+            },
+            {
+              "id": "saurus_reserva_familia_pinot",
+              "nombre": "Saurus Reserva de Familia Pinot",
+              "descripcion": "",
+              "precio": 65000,
+              "etiquetas": [
+                "Vinos"
+              ]
+            }
+          ]
+        },
+        {
           "id": "bebidas-sin-alcohol",
           "nombre": "Bebidas sin alcohol",
           "descripcion": "Refrescos y energizantes",
