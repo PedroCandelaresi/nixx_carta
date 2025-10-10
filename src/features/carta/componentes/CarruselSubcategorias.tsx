@@ -199,7 +199,10 @@ export function CarruselSubcategorias({ tituloCategoria, subcategorias, familiaT
   useEffect(() => {
     const previo = indicePrevioRef.current;
     if (previo !== indiceActivo) {
-      scrollToTopOfPage();
+      const esDispositivoTactil = typeof window !== 'undefined' && window.matchMedia('(pointer: coarse)').matches;
+      if (!esDispositivoTactil) {
+        scrollToTopOfPage();
+      }
     }
     indicePrevioRef.current = indiceActivo;
   }, [indiceActivo]);
