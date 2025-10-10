@@ -3,480 +3,6 @@
   "subtitulo": "Somos fuego eterno.",
   "categorias": [
     {
-      "id": "entradas",
-      "nombre": "Entradas y tapeos",
-      "descripcion": "",
-      "items": [
-        {
-          "id": "rabas",
-          "nombre": "Rabas",
-          "descripcion": "",
-          "precio": 10000,
-          "etiquetas": [
-            "Entradas/ tapeos"
-          ]
-        },
-        {
-          "id": "romana",
-          "nombre": "A la romana",
-          "descripcion": "Con salsa tártara fresca",
-          "precio": 10000,
-          "etiquetas": [
-            "Entradas/ tapeos"
-          ]
-        },
-        {
-          "id": "langostinos",
-          "nombre": "Langostinos rebozados",
-          "descripcion": "Croquetas doradas con panko",
-          "precio": 10000,
-          "etiquetas": [
-            "Entradas/ tapeos"
-          ]
-        },
-        {
-          "id": "alioli",
-          "nombre": "Salsa alioli",
-          "descripcion": "Clásica crema de ajo mediterránea",
-          "precio": 10000,
-          "etiquetas": [
-            "Entradas/ tapeos"
-          ]
-        },
-        {
-          "id": "gambas",
-          "nombre": "Gambas al ajillo",
-          "descripcion": "Salteadas en aceite de oliva y ajo",
-          "precio": 10000,
-          "etiquetas": [
-            "Entradas/ tapeos"
-          ]
-        },
-        {
-          "id": "mollejas",
-          "nombre": "Mollejas al grill",
-          "descripcion": "Asadas al punto justo",
-          "precio": 10000,
-          "etiquetas": [
-            "Entradas/ tapeos"
-          ]
-        },
-        {
-          "id": "focaccia",
-          "nombre": "Sobre tostón de focaccia",
-          "descripcion": "Pan artesanal dorado",
-          "precio": 10000,
-          "etiquetas": [
-            "Entradas/ tapeos"
-          ]
-        },
-        {
-          "id": "brochett",
-          "nombre": "Brochett lomo / pollo",
-          "descripcion": "Con verduras de estación grilladas",
-          "precio": 10000,
-          "etiquetas": [
-            "Entradas/ tapeos"
-          ]
-        },
-        {
-          "id": "sorrentinos",
-          "nombre": "Sorrentinos fritos de jamón y queso",
-          "descripcion": "Con pesto patagónico",
-          "precio": 10000,
-          "etiquetas": [
-            "Entradas/ tapeos"
-          ]
-        },
-        {
-          "id": "albondigas",
-          "nombre": "Albóndigas a la pomarolla",
-          "descripcion": "En salsa casera de tomate",
-          "precio": 10000,
-          "etiquetas": [
-            "Entradas/ tapeos"
-          ]
-        },
-        {
-          "id": "papas-baston",
-          "nombre": "Papas bastón",
-          "descripcion": "Clásicas papas fritas crocantes",
-          "precio": 10000,
-          "etiquetas": [
-            "Entradas/ tapeos"
-          ]
-        },
-        {
-          "id": "papas-rusticas",
-          "nombre": "Papas rústicas",
-          "descripcion": "Con piel, al estilo casero",
-          "precio": 10000,
-          "etiquetas": [
-            "Entradas/ tapeos"
-          ]
-        },
-        {
-          "id": "papas-bravas",
-          "nombre": "Papas bravas",
-          "descripcion": "Con salsa picante española",
-          "precio": 10000,
-          "etiquetas": [
-            "Entradas/ tapeos"
-          ]
-        },
-        {
-          "id": "provoleta",
-          "nombre": "Provoleta",
-          "descripcion": "Fundida con criolla, rúcula y tomates secos",
-          "precio": 10000,
-          "etiquetas": [
-            "Entradas/ tapeos"
-          ]
-        },
-        {
-          "id": "escabeche",
-          "nombre": "Mix de escabeche",
-          "descripcion": "Verduras y carnes al estilo casero",
-          "precio": 10000,
-          "etiquetas": [
-            "Entradas/ tapeos"
-          ]
-        },
-        {
-          "id": "tabla",
-          "nombre": "Tabla para 2",
-          "descripcion": "Selección de fiambres, tapeo y escabeches",
-          "precio": 10000,
-          "etiquetas": [
-            "Entradas/ tapeos"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "principales",
-      "nombre": "Principales",
-      "descripcion": "",
-      "items": [
-        {
-          "id": "ojo-bife",
-          "nombre": "Ojo de bife",
-          "descripcion": "Con papas rotas al romero y chimi ahumado",
-          "precio": 10000,
-          "etiquetas": [
-            "Principales"
-          ]
-        },
-        {
-          "id": "toma-hock",
-          "nombre": "Toma hock",
-          "descripcion": "Servido con papas españolas, cebolla y morrones caramelizados a caballo, salsa criolla (ideal para compartir)",
-          "precio": 10000,
-          "etiquetas": [
-            "Principales"
-          ]
-        },
-        {
-          "id": "salmon",
-          "nombre": "Salmón grille",
-          "descripcion": "Junto a salsa cítrica y papas noisette gratinadas",
-          "precio": 10000,
-          "etiquetas": [
-            "Principales"
-          ]
-        },
-        {
-          "id": "entrana",
-          "nombre": "Entraña grillada",
-          "descripcion": "Con papas pai crocantes y chimi ahumado",
-          "precio": 10000,
-          "etiquetas": [
-            "Principales"
-          ]
-        },
-        {
-          "id": "rib-cerdo",
-          "nombre": "Rib de cerdo a la barbacoa",
-          "descripcion": "Bañado en salsa BBQ, con batatas fritas, miel y merkén",
-          "precio": 10000,
-          "etiquetas": [
-            "Principales"
-          ]
-        },
-        {
-          "id": "bondiola",
-          "nombre": "Bondiola al dijon",
-          "descripcion": "Coronada con peras y manzanas glaseadas",
-          "precio": 10000,
-          "etiquetas": [
-            "Principales"
-          ]
-        },
-        {
-          "id": "pollo",
-          "nombre": "Cuarto de pollo relleno",
-          "descripcion": "Sobre puré suave de zanahoria",
-          "precio": 10000,
-          "etiquetas": [
-            "Principales"
-          ]
-        },
-        {
-          "id": "chow-mein",
-          "nombre": "Chow mein de spaguetti y vegetales / pollo / carne",
-          "descripcion": "Salteado al wok con sabor oriental",
-          "precio": 10000,
-          "etiquetas": [
-            "Principales"
-          ]
-        },
-        {
-          "id": "milanesas",
-          "nombre": "Milanesas de ternera / pollo a caballo",
-          "descripcion": "Con papas fritas doradas y huevo a la plancha",
-          "precio": 10000,
-          "etiquetas": [
-            "Principales"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ensaladas",
-      "nombre": "Ensaladas",
-      "descripcion": "",
-      "items": [
-        {
-          "id": "mediterranea",
-          "nombre": "Mediterránea",
-          "descripcion": "Mix de verdes, queso brie, olivas, cherry y jamón crudo crocante",
-          "precio": 10000,
-          "etiquetas": [
-            "Ensaladas"
-          ]
-        },
-        {
-          "id": "mar",
-          "nombre": "Ensalada de mar",
-          "descripcion": "Mix de verdes, cherry confitado, langostinos, kanikama, pulpo y mejillón",
-          "precio": 10000,
-          "etiquetas": [
-            "Ensaladas"
-          ]
-        },
-        {
-          "id": "saludable",
-          "nombre": "Ensalada saludable",
-          "descripcion": "Mix de verdes, palta, garbanzo, pepino, queso, remolacha y semillas de calabaza",
-          "precio": 10000,
-          "etiquetas": [
-            "Ensaladas"
-          ]
-        },
-        {
-          "id": "peras",
-          "nombre": "Ensalada de peras",
-          "descripcion": "Mix de verdes, espinaca, peras en aceto y queso azul",
-          "precio": 10000,
-          "etiquetas": [
-            "Ensaladas"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "sandwiches",
-      "nombre": "Sanwhucheria",
-      "descripcion": "",
-      "items": [
-        {
-          "id": "ojo-bife-sandwich",
-          "nombre": "Ojo de bife",
-          "descripcion": "Con provolone fundido, palta, tomates frescos y cebolla morada",
-          "precio": 10000,
-          "etiquetas": [
-            "Sanwhucheria"
-          ]
-        },
-        {
-          "id": "lomo",
-          "nombre": "Lomo",
-          "descripcion": "Con lechuga fresca, tomates, huevo, jamón y queso",
-          "precio": 10000,
-          "etiquetas": [
-            "Sanwhucheria"
-          ]
-        },
-        {
-          "id": "pollo-crespy",
-          "nombre": "Pollo crespy",
-          "descripcion": "Con guacamole casero, lechuga, tomates secos y queso",
-          "precio": 10000,
-          "etiquetas": [
-            "Sanwhucheria"
-          ]
-        },
-        {
-          "id": "cerdo",
-          "nombre": "Cerdo bondiolita",
-          "descripcion": "Con rúcula, chucrut, huevo y papas pai",
-          "precio": 10000,
-          "etiquetas": [
-            "Sanwhucheria"
-          ]
-        },
-        {
-          "id": "vegetariano",
-          "nombre": "Vegetariano",
-          "descripcion": "Con pan integral, queso, repollo morado/blanco, zanahoria, palta y huevo duro",
-          "precio": 10000,
-          "etiquetas": [
-            "Sanwhucheria"
-          ]
-        },
-        {
-          "id": "hamburguesa",
-          "nombre": "Hamburguesa clásica",
-          "descripcion": "Doble medallón de carne, bacon crocante, lechuga, tomate, huevo y queso fundido",
-          "precio": 10000,
-          "etiquetas": [
-            "Sanwhucheria"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "pizzas",
-      "nombre": "Pizzas 8 porciones",
-      "descripcion": "",
-      "items": [
-        {
-          "id": "fugazetta",
-          "nombre": "Fugazetta",
-          "descripcion": "Con muzza, cebolla caramelizada y queso brie",
-          "precio": 10000,
-          "etiquetas": [
-            "Pizzas 8 porciones"
-          ]
-        },
-        {
-          "id": "crudo-rucula",
-          "nombre": "Jamón crudo y rúcula",
-          "descripcion": "Fresco y clásico",
-          "precio": 10000,
-          "etiquetas": [
-            "Pizzas 8 porciones"
-          ]
-        },
-        {
-          "id": "napolitana",
-          "nombre": "Napolitana",
-          "descripcion": "Con muzza, tomate y aceite de ajo",
-          "precio": 10000,
-          "etiquetas": [
-            "Pizzas 8 porciones"
-          ]
-        },
-        {
-          "id": "cuatro-quesos",
-          "nombre": "4 quesos",
-          "descripcion": "Blend de muzza, azul, provolone y pategrás",
-          "precio": 10000,
-          "etiquetas": [
-            "Pizzas 8 porciones"
-          ]
-        },
-        {
-          "id": "especial",
-          "nombre": "Especial",
-          "descripcion": "Con muzza, jamón y morrones",
-          "precio": 10000,
-          "etiquetas": [
-            "Pizzas 8 porciones"
-          ]
-        },
-        {
-          "id": "palmitos",
-          "nombre": "Palmitos",
-          "descripcion": "Con muzza, jamón, palmitos y salsa golf",
-          "precio": 10000,
-          "etiquetas": [
-            "Pizzas 8 porciones"
-          ]
-        },
-        {
-          "id": "hongos",
-          "nombre": "Hongos",
-          "descripcion": "Con muzza y hongos de estación",
-          "precio": 10000,
-          "etiquetas": [
-            "Pizzas 8 porciones"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "postres",
-      "nombre": "Postres",
-      "descripcion": "",
-      "items": [
-        {
-          "id": "flan",
-          "nombre": "Flan casero",
-          "descripcion": "Con dulce de leche o crema",
-          "precio": 10000,
-          "etiquetas": [
-            "Postres"
-          ]
-        },
-        {
-          "id": "tiramizu",
-          "nombre": "Tiramizu",
-          "descripcion": "Clásico italiano con cacao",
-          "precio": 10000,
-          "etiquetas": [
-            "Postres"
-          ]
-        },
-        {
-          "id": "copa",
-          "nombre": "Copa helada",
-          "descripcion": "Variedad de sabores",
-          "precio": 10000,
-          "etiquetas": [
-            "Postres"
-          ]
-        },
-        {
-          "id": "don-pedro",
-          "nombre": "Don Pedro",
-          "descripcion": "Helado con whisky y nueces",
-          "precio": 10000,
-          "etiquetas": [
-            "Postres"
-          ]
-        },
-        {
-          "id": "strudel",
-          "nombre": "Strudel de manzana",
-          "descripcion": "Servido con helado de pistacho",
-          "precio": 10000,
-          "etiquetas": [
-            "Postres"
-          ]
-        },
-        {
-          "id": "tortilla-peras",
-          "nombre": "Tortilla de peras al ron",
-          "descripcion": "Con helado de americana",
-          "precio": 10000,
-          "etiquetas": [
-            "Postres"
-          ]
-        }
-      ]
-    },
-    {
       "id": "bebidas",
       "nombre": "Bebidas",
       "descripcion": "",
@@ -484,13 +10,13 @@
         {
           "id": "tragos-autor",
           "nombre": "Tragos de autor",
-          "descripcion": "Recetas emblemáticas de nuestra barra",
+          "descripcion": "Recetas exclusivas de la barra Nixx.",
           "items": [
             {
               "id": "luna-llena",
               "nombre": "Luna llena",
-              "descripcion": "Absolut de mango, jugo de limón, almíbar, licor Parfait y arándanos",
-              "precio": 10000,
+              "descripcion": "Absolut de mango, jugo de limón, almíbar, licor Parfait y arándanos.",
+              "precio": 20000,
               "etiquetas": [
                 "Bebidas",
                 "Tragos de autor"
@@ -499,8 +25,8 @@
             {
               "id": "fuego",
               "nombre": "Fuego",
-              "descripcion": "Gin Beefeater, reducción de vino blanco, limón, bitter angostura y perfume de naranja",
-              "precio": 10000,
+              "descripcion": "Gin Beefeater, reducción de vino blanco, limón, bitter angostura y perfume de naranja.",
+              "precio": 20000,
               "etiquetas": [
                 "Bebidas",
                 "Tragos de autor"
@@ -509,8 +35,8 @@
             {
               "id": "pera-spritz",
               "nombre": "Pera Spritz",
-              "descripcion": "Absolut de pera, vermouth bianco y espumante",
-              "precio": 10000,
+              "descripcion": "Absolut de pera, vermouth bianco y espumante.",
+              "precio": 20000,
               "etiquetas": [
                 "Bebidas",
                 "Tragos de autor"
@@ -519,8 +45,8 @@
             {
               "id": "old-butter",
               "nombre": "Old Butter",
-              "descripcion": "Whisky escocés, mantequilla de maní y avellanas",
-              "precio": 10000,
+              "descripcion": "Whisky escocés, mantequilla de maní y avellanas.",
+              "precio": 20000,
               "etiquetas": [
                 "Bebidas",
                 "Tragos de autor"
@@ -529,8 +55,8 @@
             {
               "id": "cuba-rocas",
               "nombre": "Cuba a las rocas",
-              "descripcion": "Ron Havanna, coco y ananá",
-              "precio": 10000,
+              "descripcion": "Ron Havanna, coco y ananá.",
+              "precio": 20000,
               "etiquetas": [
                 "Bebidas",
                 "Tragos de autor"
@@ -539,8 +65,8 @@
             {
               "id": "oasis",
               "nombre": "Oasis",
-              "descripcion": "Ron Havanna, blue curaçao, limón, ananá y espumante",
-              "precio": 10000,
+              "descripcion": "Ron Havanna, blue curaçao, limón, ananá y espumante.",
+              "precio": 20000,
               "etiquetas": [
                 "Bebidas",
                 "Tragos de autor"
@@ -549,8 +75,8 @@
             {
               "id": "saralfin",
               "nombre": "Saralfin",
-              "descripcion": "Ron Havanna, licor Parfait, menta, naranja, almíbar y tónica",
-              "precio": 10000,
+              "descripcion": "Ron Havanna, licor Parfait, menta, naranja, almíbar y tónica.",
+              "precio": 20000,
               "etiquetas": [
                 "Bebidas",
                 "Tragos de autor"
@@ -559,8 +85,8 @@
             {
               "id": "violet",
               "nombre": "Violet",
-              "descripcion": "Gin Beefeater infusionado con lavanda, vermouth macerado con moras y licor Parfait",
-              "precio": 10000,
+              "descripcion": "Gin Beefeater infusionado con lavanda, vermouth macerado con moras y licor Parfait.",
+              "precio": 20000,
               "etiquetas": [
                 "Bebidas",
                 "Tragos de autor"
@@ -569,8 +95,8 @@
             {
               "id": "dolca",
               "nombre": "Dolca",
-              "descripcion": "Malibú, cordial de banana, chocolate blanco, ananá, Borghetti y sauco",
-              "precio": 10000,
+              "descripcion": "Malibú, cordial de banana, chocolate blanco, ananá, Borghetti y sauco.",
+              "precio": 20000,
               "etiquetas": [
                 "Bebidas",
                 "Tragos de autor"
@@ -579,229 +105,11 @@
             {
               "id": "pink",
               "nombre": "Pink",
-              "descripcion": "Beefeater Pink, Malibú, maracuyá, cordial de frutos rojos y pomelo rosado",
-              "precio": 10000,
+              "descripcion": "Beefeater Pink, Malibú, maracuyá, cordial de frutos rojos y pomelo rosado.",
+              "precio": 20000,
               "etiquetas": [
                 "Bebidas",
                 "Tragos de autor"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "tragos-autor-sin-alcohol",
-          "nombre": "Tragos sin alcohol",
-          "descripcion": "Mocktails frescos y equilibrados",
-          "items": [
-            {
-              "id": "pomelada",
-              "nombre": "Pomelada",
-              "descripcion": "Jugo de pomelo, almíbar y hibiscos",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Sin alcohol"
-              ]
-            },
-            {
-              "id": "rabitt",
-              "nombre": "Rabitt",
-              "descripcion": "Naranja, maracuyá y zanahoria",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Sin alcohol"
-              ]
-            },
-            {
-              "id": "nixx",
-              "nombre": "Nixx",
-              "descripcion": "Jugo de frutos rojos, remolacha y lima",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Sin alcohol"
-              ]
-            },
-            {
-              "id": "victoria",
-              "nombre": "Victoria",
-              "descripcion": "Mix de jugos y almíbar de jengibre",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Sin alcohol"
-              ]
-            },
-            {
-              "id": "puebla",
-              "nombre": "Puebla",
-              "descripcion": "Pomelo, frutilla, limón, amargo serrano y soda",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Sin alcohol"
-              ]
-            },
-            {
-              "id": "reina-mora",
-              "nombre": "Reina mora",
-              "descripcion": "Cordial de hibiscos, pera, limón y arándanos",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Sin alcohol"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "tragos-cream",
-          "nombre": "Tragos cream",
-          "descripcion": "Cremosos, intensos y golosos",
-          "items": [
-            {
-              "id": "dubai",
-              "nombre": "Dubai",
-              "descripcion": "Ron, apricot brandy, helado de pistacho, mango y crema",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Cream"
-              ]
-            },
-            {
-              "id": "cream-nixx",
-              "nombre": "Cream Nixx",
-              "descripcion": "Baileys, ron y Frangelico",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Cream"
-              ]
-            },
-            {
-              "id": "baileys-martini",
-              "nombre": "Baileys martini",
-              "descripcion": "Vodka, licor de café y almíbar",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Cream"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "tragos-redbull",
-          "nombre": "Tragos con Red Bull",
-          "descripcion": "Combinados energéticos (sirve con logo Red Bull)",
-          "items": [
-            {
-              "id": "jagger-redbull",
-              "nombre": "Jagger con Red Bull clásico",
-              "descripcion": "Jägermeister con Red Bull clásico",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Red Bull"
-              ]
-            },
-            {
-              "id": "gin-redbull",
-              "nombre": "Gin con Red Bull",
-              "descripcion": "Gin Beefeater, lima, arándanos y Red Bull a elección",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Red Bull"
-              ]
-            },
-            {
-              "id": "malibu-redbull",
-              "nombre": "Malibú con Red Bull",
-              "descripcion": "Malibú, frambuesa, pomelo y Red Bull a elección",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Red Bull"
-              ]
-            },
-            {
-              "id": "absolut-redbull",
-              "nombre": "Absolut con Red Bull",
-              "descripcion": "Absolut Raspberry, Malibú, naranja, pomelo y Red Bull de sandía",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Red Bull"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "bebidas-sin-alcohol",
-          "nombre": "Bebidas sin alcohol",
-          "descripcion": "Clásicos refrescos y aguas",
-          "items": [
-            {
-              "id": "agua",
-              "nombre": "Agua",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Sin alcohol"
-              ]
-            },
-            {
-              "id": "coca-cola",
-              "nombre": "Coca Cola",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Sin alcohol"
-              ]
-            },
-            {
-              "id": "sprite",
-              "nombre": "Sprite",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Sin alcohol"
-              ]
-            },
-            {
-              "id": "fanta",
-              "nombre": "Fanta",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Sin alcohol"
-              ]
-            },
-            {
-              "id": "schweppes-pomelo",
-              "nombre": "Schweppes Pomelo",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Sin alcohol"
-              ]
-            },
-            {
-              "id": "schweppes-tonica",
-              "nombre": "Schweppes Tónica",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Sin alcohol"
               ]
             }
           ]
@@ -812,30 +120,10 @@
           "descripcion": "Coctelería fundamental",
           "items": [
             {
-              "id": "dry-martini",
-              "nombre": "Dry Martini",
+              "id": "aperol-spritz",
+              "nombre": "Aperol Spritz",
               "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Clásicos"
-              ]
-            },
-            {
-              "id": "expresso-martini",
-              "nombre": "Expresso martini",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Clásicos"
-              ]
-            },
-            {
-              "id": "negroni",
-              "nombre": "Negroni",
-              "descripcion": "",
-              "precio": 10000,
+              "precio": 16000,
               "etiquetas": [
                 "Bebidas",
                 "Clásicos"
@@ -845,87 +133,17 @@
               "id": "boulevardier",
               "nombre": "Boulevardier",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 16000,
               "etiquetas": [
                 "Bebidas",
                 "Clásicos"
               ]
             },
             {
-              "id": "old-fashion",
-              "nombre": "Old fashion",
+              "id": "branca-smash",
+              "nombre": "Branca Smash",
               "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Clásicos"
-              ]
-            },
-            {
-              "id": "cosmopolitan",
-              "nombre": "Cosmopolitan",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Clásicos"
-              ]
-            },
-            {
-              "id": "margarita",
-              "nombre": "Margarita",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Clásicos"
-              ]
-            },
-            {
-              "id": "penicilin",
-              "nombre": "Penicilin",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Clásicos"
-              ]
-            },
-            {
-              "id": "manhattan",
-              "nombre": "Manhattan",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Clásicos"
-              ]
-            },
-            {
-              "id": "aperol-spritz",
-              "nombre": "Aperol spritz",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Clásicos"
-              ]
-            },
-            {
-              "id": "cuba-libre",
-              "nombre": "Cuba libre",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Clásicos"
-              ]
-            },
-            {
-              "id": "garibaldi",
-              "nombre": "Garibaldi",
-              "descripcion": "",
-              "precio": 10000,
+              "precio": 16000,
               "etiquetas": [
                 "Bebidas",
                 "Clásicos"
@@ -935,27 +153,57 @@
               "id": "caipirinha",
               "nombre": "Caipirinha",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 16000,
               "etiquetas": [
                 "Bebidas",
                 "Clásicos"
               ]
             },
             {
-              "id": "gancia",
-              "nombre": "Gancia",
+              "id": "cinzano",
+              "nombre": "Cinzano",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 16000,
               "etiquetas": [
                 "Bebidas",
                 "Clásicos"
               ]
             },
             {
-              "id": "pisco-sour",
-              "nombre": "Pisco Sour",
+              "id": "cosmopolitan",
+              "nombre": "Cosmopolitan",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 16000,
+              "etiquetas": [
+                "Bebidas",
+                "Clásicos"
+              ]
+            },
+            {
+              "id": "cuba-libre",
+              "nombre": "Cuba Libre",
+              "descripcion": "",
+              "precio": 16000,
+              "etiquetas": [
+                "Bebidas",
+                "Clásicos"
+              ]
+            },
+            {
+              "id": "dry-martini",
+              "nombre": "Dry Martini",
+              "descripcion": "",
+              "precio": 16000,
+              "etiquetas": [
+                "Bebidas",
+                "Clásicos"
+              ]
+            },
+            {
+              "id": "expresso-martini",
+              "nombre": "Expresso Martini",
+              "descripcion": "",
+              "precio": 16000,
               "etiquetas": [
                 "Bebidas",
                 "Clásicos"
@@ -965,7 +213,7 @@
               "id": "fernet-branca",
               "nombre": "Fernet Branca",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 16000,
               "etiquetas": [
                 "Bebidas",
                 "Clásicos"
@@ -973,9 +221,9 @@
             },
             {
               "id": "fernet-branca-menta",
-              "nombre": "Fernet Branca menta",
+              "nombre": "Fernet Branca Menta",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 14000,
               "etiquetas": [
                 "Bebidas",
                 "Clásicos"
@@ -985,17 +233,27 @@
               "id": "ferroviario",
               "nombre": "Ferroviario",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 14000,
               "etiquetas": [
                 "Bebidas",
                 "Clásicos"
               ]
             },
             {
-              "id": "branca-smash",
-              "nombre": "Branca smash",
+              "id": "gancia",
+              "nombre": "Gancia",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 14000,
+              "etiquetas": [
+                "Bebidas",
+                "Clásicos"
+              ]
+            },
+            {
+              "id": "garibaldi",
+              "nombre": "Garibaldi",
+              "descripcion": "",
+              "precio": 14000,
               "etiquetas": [
                 "Bebidas",
                 "Clásicos"
@@ -1005,27 +263,7 @@
               "id": "gin-beefeater",
               "nombre": "Gin Beefeater clásico",
               "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Clásicos"
-              ]
-            },
-            {
-              "id": "gin-beefeater-blood-orange",
-              "nombre": "Gin Beefeater Blood Orange",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Clásicos"
-              ]
-            },
-            {
-              "id": "gin-beefeater-pink",
-              "nombre": "Gin Beefeater Pink",
-              "descripcion": "",
-              "precio": 10000,
+              "precio": 16000,
               "etiquetas": [
                 "Bebidas",
                 "Clásicos"
@@ -1035,37 +273,27 @@
               "id": "gin-beefeater-24",
               "nombre": "Gin Beefeater 24",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 16000,
               "etiquetas": [
                 "Bebidas",
                 "Clásicos"
               ]
             },
             {
-              "id": "ron-havanna-original",
-              "nombre": "Ron Havanna original/especial",
+              "id": "gin-beefeater-blood-orange",
+              "nombre": "Gin Beefeater Blood Orange",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 16000,
               "etiquetas": [
                 "Bebidas",
                 "Clásicos"
               ]
             },
             {
-              "id": "ron-havanna-anejo",
-              "nombre": "Ron Havanna añejo 7 años",
+              "id": "gin-beefeater-pink",
+              "nombre": "Gin Beefeater Pink",
               "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Clásicos"
-              ]
-            },
-            {
-              "id": "absolut-redbull-jugo",
-              "nombre": "Absolut + Red Bull o jugo",
-              "descripcion": "Mandarine, Lima, Wild, Vanilia, Raspberry, Pears, Watermelon o clásico",
-              "precio": 10000,
+              "precio": 20000,
               "etiquetas": [
                 "Bebidas",
                 "Clásicos"
@@ -1075,7 +303,127 @@
               "id": "gin-bulldog-tonica",
               "nombre": "Gin Bulldog con tónica",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 16000,
+              "etiquetas": [
+                "Bebidas",
+                "Clásicos"
+              ]
+            },
+            {
+              "id": "juleps",
+              "nombre": "Juleps Jäger / Cynar",
+              "descripcion": "",
+              "precio": 20000,
+              "etiquetas": [
+                "Bebidas",
+                "Clásicos"
+              ]
+            },
+            {
+              "id": "manhattan",
+              "nombre": "Manhattan",
+              "descripcion": "",
+              "precio": 16000,
+              "etiquetas": [
+                "Bebidas",
+                "Clásicos"
+              ]
+            },
+            {
+              "id": "margarita",
+              "nombre": "Margarita",
+              "descripcion": "",
+              "precio": 16000,
+              "etiquetas": [
+                "Bebidas",
+                "Clásicos"
+              ]
+            },
+            {
+              "id": "mojito-clasico",
+              "nombre": "Mojito clásico",
+              "descripcion": "",
+              "precio": 16000,
+              "etiquetas": [
+                "Bebidas",
+                "Clásicos"
+              ]
+            },
+            {
+              "id": "mojito-malibu",
+              "nombre": "Mojito Malibú",
+              "descripcion": "",
+              "precio": 16000,
+              "etiquetas": [
+                "Bebidas",
+                "Clásicos"
+              ]
+            },
+            {
+              "id": "negroni",
+              "nombre": "Negroni",
+              "descripcion": "",
+              "precio": 16000,
+              "etiquetas": [
+                "Bebidas",
+                "Clásicos"
+              ]
+            },
+            {
+              "id": "old-fashion",
+              "nombre": "Old Fashion",
+              "descripcion": "",
+              "precio": 16000,
+              "etiquetas": [
+                "Bebidas",
+                "Clásicos"
+              ]
+            },
+            {
+              "id": "penicilin",
+              "nombre": "Penicilin",
+              "descripcion": "",
+              "precio": 16000,
+              "etiquetas": [
+                "Bebidas",
+                "Clásicos"
+              ]
+            },
+            {
+              "id": "pisco-sour",
+              "nombre": "Pisco Sour",
+              "descripcion": "",
+              "precio": 16000,
+              "etiquetas": [
+                "Bebidas",
+                "Clásicos"
+              ]
+            },
+            {
+              "id": "ron-havanna-original",
+              "nombre": "Ron Havanna original / especial",
+              "descripcion": "",
+              "precio": 20000,
+              "etiquetas": [
+                "Bebidas",
+                "Clásicos"
+              ]
+            },
+            {
+              "id": "ron-havanna-anejo",
+              "nombre": "Ron Havanna añejo 7 años",
+              "descripcion": "",
+              "precio": 20000,
+              "etiquetas": [
+                "Bebidas",
+                "Clásicos"
+              ]
+            },
+            {
+              "id": "sky-redbull",
+              "nombre": "Sky con Red Bull o jugo",
+              "descripcion": "",
+              "precio": 16000,
               "etiquetas": [
                 "Bebidas",
                 "Clásicos"
@@ -1090,399 +438,62 @@
                 "Bebidas",
                 "Clásicos"
               ]
-            },
-            {
-              "id": "cinzano",
-              "nombre": "Cinzano",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Clásicos"
-              ]
-            },
-            {
-              "id": "sky-redbull",
-              "nombre": "Sky con Red Bull o jugo",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Clásicos"
-              ]
-            },
-            {
-              "id": "juleps-jagger",
-              "nombre": "Juleps Jagger",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Clásicos"
-              ]
-            },
-            {
-              "id": "juleps-cynar",
-              "nombre": "Juleps Cynar",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Clásicos"
-              ]
-            },
-            {
-              "id": "mojito-clasico",
-              "nombre": "Mojito clásico",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Clásicos"
-              ]
-            },
-            {
-              "id": "mojito-malibu",
-              "nombre": "Mojito Malibú",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Clásicos"
-              ]
             }
           ]
         },
         {
-          "id": "whisky",
-          "nombre": "Whisky",
-          "descripcion": "Selección de etiquetas",
+          "id": "tragos-redbull",
+          "nombre": "Tragos con Red Bull",
+          "descripcion": "Combinados energéticos",
           "items": [
             {
-              "id": "ballantines-clasico",
-              "nombre": "Ballantine's clásico",
+              "id": "absolut-redbull",
+              "nombre": "Absolut a elección con Red Bull o jugo",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 20000,
               "etiquetas": [
                 "Bebidas",
-                "Whisky"
+                "Red Bull"
               ]
             },
             {
-              "id": "ballantines-7",
-              "nombre": "Ballantine's añejo 7 años",
+              "id": "absolut-redbull-sandia",
+              "nombre": "Absolut Raspberry / Malibú / Naranja / Pomelo / Red Bull de sandía",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 20000,
               "etiquetas": [
                 "Bebidas",
-                "Whisky"
+                "Red Bull"
               ]
             },
             {
-              "id": "ballantines-10",
-              "nombre": "Ballantine's añejo 10 años",
+              "id": "gin-redbull",
+              "nombre": "Gin Beefeater, lima, arándanos y Red Bull a elección",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 16000,
               "etiquetas": [
                 "Bebidas",
-                "Whisky"
+                "Red Bull"
               ]
             },
             {
-              "id": "jameson-clasico",
-              "nombre": "Jameson clásico",
+              "id": "jagger-redbull",
+              "nombre": "Jagger con Red Bull clásico",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 20000,
               "etiquetas": [
                 "Bebidas",
-                "Whisky"
+                "Red Bull"
               ]
             },
             {
-              "id": "jameson-ipa",
-              "nombre": "Jameson edición IPA",
+              "id": "malibu-redbull",
+              "nombre": "Malibú, frambuesa, pomelo y Red Bull a elección",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 16000,
               "etiquetas": [
                 "Bebidas",
-                "Whisky"
-              ]
-            },
-            {
-              "id": "jameson-black",
-              "nombre": "Jameson Black Barrel",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Whisky"
-              ]
-            },
-            {
-              "id": "chivas-12",
-              "nombre": "Chivas 12 años",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Whisky"
-              ]
-            },
-            {
-              "id": "chivas-15",
-              "nombre": "Chivas 15 años",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Whisky"
-              ]
-            },
-            {
-              "id": "chivas-18",
-              "nombre": "Chivas 18 años",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Whisky"
-              ]
-            },
-            {
-              "id": "jack-daniels-tennessee",
-              "nombre": "Jack Daniel's Tennessee",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Whisky"
-              ]
-            },
-            {
-              "id": "jack-daniels-honey",
-              "nombre": "Jack Daniel's Honey",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Whisky"
-              ]
-            },
-            {
-              "id": "jack-daniels-fire",
-              "nombre": "Jack Daniel's Fire",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Whisky"
-              ]
-            },
-            {
-              "id": "jack-daniels-apple",
-              "nombre": "Jack Daniel's Apple",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Whisky"
-              ]
-            },
-            {
-              "id": "johnnie-walker-red",
-              "nombre": "Johnnie Walker Red",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Whisky"
-              ]
-            },
-            {
-              "id": "johnnie-walker-black",
-              "nombre": "Johnnie Walker Black",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Whisky"
-              ]
-            },
-            {
-              "id": "johnnie-walker-double-black",
-              "nombre": "Johnnie Walker Double Black",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Whisky"
-              ]
-            },
-            {
-              "id": "johnnie-walker-green",
-              "nombre": "Johnnie Walker Green",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Whisky"
-              ]
-            },
-            {
-              "id": "johnnie-walker-gold-reserve",
-              "nombre": "Johnnie Walker Gold Reserve",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Whisky"
-              ]
-            },
-            {
-              "id": "johnnie-walker-blue",
-              "nombre": "Johnnie Walker Blue",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Whisky"
-              ]
-            },
-            {
-              "id": "wild-turkey",
-              "nombre": "Whisky Wild Turkey",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Whisky"
-              ]
-            },
-            {
-              "id": "acon-soutland",
-              "nombre": "Whisky De Acon Soutland",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Whisky"
-              ]
-            },
-            {
-              "id": "tx-texas",
-              "nombre": "Whisky TX Texas",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Whisky"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "champagne",
-          "nombre": "Champagne",
-          "descripcion": "Brindis premium",
-          "items": [
-            {
-              "id": "chandon-extra-brut",
-              "nombre": "Chandon Extra Brut",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Espumantes"
-              ]
-            },
-            {
-              "id": "chandon-15",
-              "nombre": "Chandon 1.5 L",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Espumantes"
-              ]
-            },
-            {
-              "id": "chandon-187",
-              "nombre": "Chandon 187 ml",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Espumantes"
-              ]
-            },
-            {
-              "id": "chandon-750",
-              "nombre": "Chandon 750 ml",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Espumantes"
-              ]
-            },
-            {
-              "id": "veuve-clicquot",
-              "nombre": "Veuve Clicquot",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Espumantes"
-              ]
-            },
-            {
-              "id": "veuve-rich",
-              "nombre": "Veuve Rich",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Espumantes"
-              ]
-            },
-            {
-              "id": "moet-chandon",
-              "nombre": "Moët & Chandon",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Espumantes"
-              ]
-            },
-            {
-              "id": "moet-chandon-ice",
-              "nombre": "Moët & Chandon Ice",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Espumantes"
-              ]
-            },
-            {
-              "id": "baron-b",
-              "nombre": "Baron B",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Espumantes"
-              ]
-            },
-            {
-              "id": "mumm",
-              "nombre": "Mumm",
-              "descripcion": "",
-              "precio": 10000,
-              "etiquetas": [
-                "Bebidas",
-                "Espumantes"
+                "Red Bull"
               ]
             }
           ]
@@ -1493,10 +504,40 @@
           "descripcion": "Botella y tirada",
           "items": [
             {
+              "id": "torobayo-roja",
+              "nombre": "Artesanal Torobayo Roja",
+              "descripcion": "Lata artesanal",
+              "precio": 10000,
+              "etiquetas": [
+                "Bebidas",
+                "Cervezas"
+              ]
+            },
+            {
+              "id": "crafter",
+              "nombre": "Artesanal Crafter IPA / APA / Stout / Golden",
+              "descripcion": "Lata artesanal",
+              "precio": 10000,
+              "etiquetas": [
+                "Bebidas",
+                "Cervezas"
+              ]
+            },
+            {
+              "id": "pinta-heineken",
+              "nombre": "Pinta tirada Heineken Lager",
+              "descripcion": "Cerveza tirada",
+              "precio": 8000,
+              "etiquetas": [
+                "Bebidas",
+                "Cervezas"
+              ]
+            },
+            {
               "id": "porron-miller",
               "nombre": "Porrón Miller",
               "descripcion": "Botella individual",
-              "precio": 10000,
+              "precio": 8000,
               "etiquetas": [
                 "Bebidas",
                 "Cervezas"
@@ -1506,7 +547,7 @@
               "id": "porron-heineken",
               "nombre": "Porrón Heineken",
               "descripcion": "Botella individual",
-              "precio": 10000,
+              "precio": 8000,
               "etiquetas": [
                 "Bebidas",
                 "Cervezas"
@@ -1521,206 +562,510 @@
                 "Bebidas",
                 "Cervezas"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "id": "bebidas-sin-alcohol",
+          "nombre": "Bebidas sin alcohol",
+          "descripcion": "Refrescos y energizantes",
+          "items": [
             {
-              "id": "pinta-heineken",
-              "nombre": "Pinta tirada Heineken Lager",
-              "descripcion": "Cerveza tirada",
-              "precio": 10000,
+              "id": "agua",
+              "nombre": "Agua",
+              "descripcion": "",
+              "precio": 4500,
               "etiquetas": [
                 "Bebidas",
-                "Cervezas"
+                "Sin alcohol"
               ]
             },
             {
-              "id": "torobayo-roja",
-              "nombre": "Artesanal Torobayo Roja",
-              "descripcion": "Lata artesanal",
-              "precio": 10000,
+              "id": "coca-cola",
+              "nombre": "Coca Cola",
+              "descripcion": "",
+              "precio": 5000,
               "etiquetas": [
                 "Bebidas",
-                "Cervezas"
+                "Sin alcohol"
               ]
             },
             {
-              "id": "crafter-ipa",
-              "nombre": "Artesanal Crafter IPA",
-              "descripcion": "Lata artesanal",
-              "precio": 10000,
+              "id": "fanta",
+              "nombre": "Fanta",
+              "descripcion": "",
+              "precio": 5000,
               "etiquetas": [
                 "Bebidas",
-                "Cervezas"
+                "Sin alcohol"
               ]
             },
             {
-              "id": "crafter-apa",
-              "nombre": "Artesanal Crafter APA",
-              "descripcion": "Lata artesanal",
-              "precio": 10000,
+              "id": "redbull-green",
+              "nombre": "Red Bull Green Edition",
+              "descripcion": "",
+              "precio": 8000,
               "etiquetas": [
                 "Bebidas",
-                "Cervezas"
+                "Sin alcohol"
               ]
             },
             {
-              "id": "crafter-stout",
-              "nombre": "Artesanal Crafter Stout",
-              "descripcion": "Lata artesanal",
-              "precio": 10000,
+              "id": "redbull-regular",
+              "nombre": "Red Bull Regular Edition",
+              "descripcion": "",
+              "precio": 8000,
               "etiquetas": [
                 "Bebidas",
-                "Cervezas"
+                "Sin alcohol"
               ]
             },
             {
-              "id": "crafter-golden",
-              "nombre": "Artesanal Crafter Golden",
-              "descripcion": "Lata artesanal",
-              "precio": 10000,
+              "id": "redbull-sugarfree",
+              "nombre": "Red Bull Sugar Free",
+              "descripcion": "",
+              "precio": 8000,
               "etiquetas": [
                 "Bebidas",
-                "Cervezas"
+                "Sin alcohol"
+              ]
+            },
+            {
+              "id": "schweppes-pomelo",
+              "nombre": "Schweppes Pomelo",
+              "descripcion": "",
+              "precio": 5000,
+              "etiquetas": [
+                "Bebidas",
+                "Sin alcohol"
+              ]
+            },
+            {
+              "id": "schweppes-tonica",
+              "nombre": "Schweppes Tónica",
+              "descripcion": "",
+              "precio": 5000,
+              "etiquetas": [
+                "Bebidas",
+                "Sin alcohol"
+              ]
+            },
+            {
+              "id": "sprite",
+              "nombre": "Sprite",
+              "descripcion": "",
+              "precio": 5000,
+              "etiquetas": [
+                "Bebidas",
+                "Sin alcohol"
               ]
             }
           ]
         },
         {
-          "id": "vinos",
-          "nombre": "Vinos",
-          "descripcion": "Tintos y blancos seleccionados",
+          "id": "whisky",
+          "nombre": "Whisky",
+          "descripcion": "Selección de etiquetas",
           "items": [
             {
-              "id": "copa-dv-catena",
-              "nombre": "Copa DV Catena Zapata Cabernet Malbec",
+              "id": "ballantines-clasico",
+              "nombre": "Ballantine’s clásico",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 12000,
               "etiquetas": [
                 "Bebidas",
-                "Vinos"
+                "Whisky"
               ]
             },
             {
-              "id": "copa-santa-julia",
-              "nombre": "Copa Santa Julia",
+              "id": "ballantines-7",
+              "nombre": "Ballantine’s añejo 7 años",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 18000,
               "etiquetas": [
                 "Bebidas",
-                "Vinos"
+                "Whisky"
               ]
             },
             {
-              "id": "saurus-pinot",
-              "nombre": "Saurus Pinot",
+              "id": "ballantines-10",
+              "nombre": "Ballantine’s añejo 10 años",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 20000,
               "etiquetas": [
                 "Bebidas",
-                "Vinos"
+                "Whisky"
               ]
             },
             {
-              "id": "saurus-malbec",
-              "nombre": "Saurus Malbec",
+              "id": "chivas-12",
+              "nombre": "Chivas 12 años",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 18000,
               "etiquetas": [
                 "Bebidas",
-                "Vinos"
+                "Whisky"
               ]
             },
             {
-              "id": "saurus-cabernet",
-              "nombre": "Saurus Cabernet",
+              "id": "chivas-15",
+              "nombre": "Chivas 15 años",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 25000,
               "etiquetas": [
                 "Bebidas",
-                "Vinos"
+                "Whisky"
               ]
             },
             {
-              "id": "saurus-reserva",
-              "nombre": "Saurus Reserva de familia",
+              "id": "chivas-18",
+              "nombre": "Chivas 18 años",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 30000,
               "etiquetas": [
                 "Bebidas",
-                "Vinos"
+                "Whisky"
               ]
             },
             {
-              "id": "catena-zapata",
-              "nombre": "Catena Zapata",
+              "id": "jack-daniels-apple",
+              "nombre": "Jack Daniel’s Apple",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 18000,
               "etiquetas": [
                 "Bebidas",
-                "Vinos"
+                "Whisky"
               ]
             },
             {
-              "id": "dv-catena-malbec-malbec",
-              "nombre": "DV Catena Zapata Malbec Malbec",
+              "id": "jack-daniels-fire",
+              "nombre": "Jack Daniel’s Fire",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 18000,
               "etiquetas": [
                 "Bebidas",
-                "Vinos"
+                "Whisky"
               ]
             },
             {
-              "id": "dv-catena-cabernet-malbec",
-              "nombre": "DV Catena Zapata Cabernet Malbec",
+              "id": "jack-daniels-honey",
+              "nombre": "Jack Daniel’s Honey",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 18000,
               "etiquetas": [
                 "Bebidas",
-                "Vinos"
+                "Whisky"
               ]
             },
             {
-              "id": "santa-julia",
-              "nombre": "Santa Julia",
+              "id": "jack-daniels-tennessee",
+              "nombre": "Jack Daniel’s Tennessee",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 18000,
               "etiquetas": [
                 "Bebidas",
-                "Vinos"
+                "Whisky"
               ]
             },
             {
-              "id": "chardonnay",
-              "nombre": "Chardonnay",
+              "id": "jameson-clasico",
+              "nombre": "Jameson clásico",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 14000,
               "etiquetas": [
                 "Bebidas",
-                "Vinos"
+                "Whisky"
+              ]
+            },
+            {
+              "id": "jameson-ipa",
+              "nombre": "Jameson edición IPA",
+              "descripcion": "",
+              "precio": 24000,
+              "etiquetas": [
+                "Bebidas",
+                "Whisky"
+              ]
+            },
+            {
+              "id": "jameson-black",
+              "nombre": "Jameson Black Barrel",
+              "descripcion": "",
+              "precio": 18000,
+              "etiquetas": [
+                "Bebidas",
+                "Whisky"
+              ]
+            },
+            {
+              "id": "johnnie-walker-red",
+              "nombre": "Johnnie Walker Red",
+              "descripcion": "",
+              "precio": 14000,
+              "etiquetas": [
+                "Bebidas",
+                "Whisky"
+              ]
+            },
+            {
+              "id": "johnnie-walker-black",
+              "nombre": "Johnnie Walker Black",
+              "descripcion": "",
+              "precio": 22000,
+              "etiquetas": [
+                "Bebidas",
+                "Whisky"
+              ]
+            },
+            {
+              "id": "johnnie-walker-double-black",
+              "nombre": "Johnnie Walker Double Black",
+              "descripcion": "",
+              "precio": 28000,
+              "etiquetas": [
+                "Bebidas",
+                "Whisky"
+              ]
+            },
+            {
+              "id": "johnnie-walker-green",
+              "nombre": "Johnnie Walker Green",
+              "descripcion": "",
+              "precio": 60000,
+              "etiquetas": [
+                "Bebidas",
+                "Whisky"
+              ]
+            },
+            {
+              "id": "johnnie-walker-blue",
+              "nombre": "Johnnie Walker Blue",
+              "descripcion": "",
+              "precio": 160000,
+              "etiquetas": [
+                "Bebidas",
+                "Whisky"
+              ]
+            },
+            {
+              "id": "johnnie-walker-reserve",
+              "nombre": "Johnnie Walker Reserve",
+              "descripcion": "",
+              "precio": 65000,
+              "etiquetas": [
+                "Bebidas",
+                "Whisky"
+              ]
+            },
+            {
+              "id": "wild-turkey",
+              "nombre": "Whisky Wild Turkey",
+              "descripcion": "",
+              "precio": 16000,
+              "etiquetas": [
+                "Bebidas",
+                "Whisky"
+              ]
+            },
+            {
+              "id": "acon-soutland",
+              "nombre": "Whisky De Acon Soutland",
+              "descripcion": "",
+              "precio": 28000,
+              "etiquetas": [
+                "Bebidas",
+                "Whisky"
+              ]
+            },
+            {
+              "id": "tx-texas",
+              "nombre": "Whisky TX Texas",
+              "descripcion": "",
+              "precio": 18000,
+              "etiquetas": [
+                "Bebidas",
+                "Whisky"
               ]
             }
           ]
         },
         {
-          "id": "carta-noche-vip",
-          "nombre": "Botellas noche VIP",
-          "descripcion": "Solo venta en carta noche VIP",
+          "id": "champagne",
+          "nombre": "Botellas",
+          "descripcion": "Carta de botellas",
           "items": [
             {
-              "id": "vodka-belvedere",
-              "nombre": "Vodka Belvedere",
+              "id": "absolut-3redbull",
+              "nombre": "Absolut con 3 Red Bull a elección",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 60000,
               "etiquetas": [
                 "Bebidas",
-                "VIP"
+                "Botellas"
               ]
             },
+            {
+              "id": "sky-3redbull",
+              "nombre": "Sky con 3 Red Bull",
+              "descripcion": "",
+              "precio": 45000,
+              "etiquetas": [
+                "Bebidas",
+                "Botellas"
+              ]
+            },
+            {
+              "id": "jagger-3redbull",
+              "nombre": "Jägger con 3 Red Bull",
+              "descripcion": "",
+              "precio": 60000,
+              "etiquetas": [
+                "Bebidas",
+                "Botellas"
+              ]
+            },
+            {
+              "id": "mumm-1redbull",
+              "nombre": "Mumm con 1 Red Bull",
+              "descripcion": "",
+              "precio": 20000,
+              "etiquetas": [
+                "Bebidas",
+                "Botellas"
+              ]
+            },
+            {
+              "id": "baron-b",
+              "nombre": "Baron B con 2 Red Bull",
+              "descripcion": "",
+              "precio": 130000,
+              "etiquetas": [
+                "Bebidas",
+                "Botellas"
+              ]
+            },
+            {
+              "id": "chandon-extra-brut",
+              "nombre": "Chandon Extra Brut con 2 Red Bull",
+              "descripcion": "",
+              "precio": 60000,
+              "etiquetas": [
+                "Bebidas",
+                "Botellas"
+              ]
+            },
+            {
+              "id": "chandon-15",
+              "nombre": "Chandon 1.5 L con 4 Red Bull",
+              "descripcion": "",
+              "precio": 120000,
+              "etiquetas": [
+                "Bebidas",
+                "Botellas"
+              ]
+            },
+            {
+              "id": "chandon-187",
+              "nombre": "Chandon 187 ml con 1 Red Bull",
+              "descripcion": "",
+              "precio": 25000,
+              "etiquetas": [
+                "Bebidas",
+                "Botellas"
+              ]
+            },
+            {
+              "id": "chandon-750",
+              "nombre": "Chandon 750 ml con 2 Red Bull",
+              "descripcion": "",
+              "precio": 60000,
+              "etiquetas": [
+                "Bebidas",
+                "Botellas"
+              ]
+            },
+            {
+              "id": "moet-chandon",
+              "nombre": "Moët Chandon con 2 Red Bull",
+              "descripcion": "",
+              "precio": 450000,
+              "etiquetas": [
+                "Bebidas",
+                "Botellas"
+              ]
+            },
+            {
+              "id": "moet-chandon-ice",
+              "nombre": "Moët Chandon Ice con 2 Red Bull",
+              "descripcion": "",
+              "precio": 500000,
+              "etiquetas": [
+                "Bebidas",
+                "Botellas"
+              ]
+            },
+            {
+              "id": "mumm-cordon-rouge",
+              "nombre": "Mumm Cordon Rouge con 2 Red Bull",
+              "descripcion": "",
+              "precio": 300000,
+              "etiquetas": [
+                "Bebidas",
+                "Botellas"
+              ]
+            },
+            {
+              "id": "nuvo",
+              "nombre": "Nuvo con 2 Red Bull",
+              "descripcion": "",
+              "precio": 180000,
+              "etiquetas": [
+                "Bebidas",
+                "Botellas"
+              ]
+            },
+            {
+              "id": "perrier-jouet",
+              "nombre": "Perrier-Jouet Grand Brut",
+              "descripcion": "",
+              "precio": 300000,
+              "etiquetas": [
+                "Bebidas",
+                "Botellas"
+              ]
+            },
+            {
+              "id": "veuve-clicquot",
+              "nombre": "Veuve Clicquot con 2 Red Bull",
+              "descripcion": "",
+              "precio": 450000,
+              "etiquetas": [
+                "Bebidas",
+                "Botellas"
+              ]
+            },
+            {
+              "id": "veuve-rich",
+              "nombre": "Veuve Rich con 2 Red Bull",
+              "descripcion": "",
+              "precio": 500000,
+              "etiquetas": [
+                "Bebidas",
+                "Botellas"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vip",
+          "nombre": "Solo VIP",
+          "descripcion": "Botellas exclusivas",
+          "items": [
             {
               "id": "cognac-hennessy",
               "nombre": "Cognac Hennessy",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 22000,
               "etiquetas": [
                 "Bebidas",
                 "VIP"
@@ -1730,12 +1075,506 @@
               "id": "glenmorangie",
               "nombre": "Glenmorangie",
               "descripcion": "",
-              "precio": 10000,
+              "precio": 30000,
+              "etiquetas": [
+                "Bebidas",
+                "VIP"
+              ]
+            },
+            {
+              "id": "glenmorangie-12",
+              "nombre": "Glenmorangie 12 años",
+              "descripcion": "",
+              "precio": 45000,
+              "etiquetas": [
+                "Bebidas",
+                "VIP"
+              ]
+            },
+            {
+              "id": "vodka-belvedere",
+              "nombre": "Vodka Belvedere",
+              "descripcion": "",
+              "precio": 25000,
               "etiquetas": [
                 "Bebidas",
                 "VIP"
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ensaladas",
+      "nombre": "Ensaladas",
+      "descripcion": "",
+      "items": [
+        {
+          "id": "mediterranea",
+          "nombre": "Mediterránea",
+          "descripcion": "Mix de verdes, queso brie, olivas, cherry y jamón crudo crocante",
+          "precio": 31000,
+          "etiquetas": [
+            "Ensaladas"
+          ]
+        },
+        {
+          "id": "mar",
+          "nombre": "Ensalada de mar",
+          "descripcion": "Mix de verdes, cherry confitado, langostinos, kanikama, pulpo y mejillón",
+          "precio": 35900,
+          "etiquetas": [
+            "Ensaladas"
+          ]
+        },
+        {
+          "id": "peras",
+          "nombre": "Ensalada de peras",
+          "descripcion": "Mix de verdes, espinaca, peras en aceto y queso azul",
+          "precio": 28300,
+          "etiquetas": [
+            "Ensaladas"
+          ]
+        },
+        {
+          "id": "saludable",
+          "nombre": "Ensalada saludable",
+          "descripcion": "Mix de verdes, palta, garbanzo, pepino, queso, remolacha y semillas de calabaza",
+          "precio": 26400,
+          "etiquetas": [
+            "Ensaladas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entrada-tapeos",
+      "nombre": "Entradas y Tapeos",
+      "descripcion": "",
+      "items": [
+        {
+          "id": "albondigas",
+          "nombre": "Albóndigas a la pomarolla",
+          "descripcion": "En salsa casera de tomate",
+          "precio": 17600,
+          "etiquetas": [
+            "Tapeo"
+          ]
+        },
+        {
+          "id": "brochette-lomo",
+          "nombre": "Brochette de lomo",
+          "descripcion": "Con verduras de estación grilladas",
+          "precio": 24500,
+          "etiquetas": [
+            "Tapeo"
+          ]
+        },
+        {
+          "id": "brochette-pollo",
+          "nombre": "Brochette de pollo",
+          "descripcion": "Con verduras de estación grilladas",
+          "precio": 18700,
+          "etiquetas": [
+            "Tapeo"
+          ]
+        },
+        {
+          "id": "gambas",
+          "nombre": "Gambas al ajillo",
+          "descripcion": "Salteadas en aceite de oliva y ajo",
+          "precio": 19400,
+          "etiquetas": [
+            "Tapeo"
+          ]
+        },
+        {
+          "id": "langostinos",
+          "nombre": "Langostinos rebozados",
+          "descripcion": "Croquetas doradas con panko",
+          "precio": 33000,
+          "etiquetas": [
+            "Tapeo"
+          ]
+        },
+        {
+          "id": "escabeche",
+          "nombre": "Mix de escabeche",
+          "descripcion": "Verduras y carnes al estilo casero",
+          "precio": 24900,
+          "etiquetas": [
+            "Tapeo"
+          ]
+        },
+        {
+          "id": "mollejas",
+          "nombre": "Mollejas al grill",
+          "descripcion": "Asadas al punto justo",
+          "precio": 25300,
+          "etiquetas": [
+            "Tapeo"
+          ]
+        },
+        {
+          "id": "papas-baston",
+          "nombre": "Papas bastón",
+          "descripcion": "Clásicas papas fritas crocantes",
+          "precio": 17000,
+          "etiquetas": [
+            "Tapeo"
+          ]
+        },
+        {
+          "id": "papas-bravas",
+          "nombre": "Papas bravas",
+          "descripcion": "Con salsa picante española",
+          "precio": 23400,
+          "etiquetas": [
+            "Tapeo"
+          ]
+        },
+        {
+          "id": "papas-rusticas",
+          "nombre": "Papas rústicas",
+          "descripcion": "Con piel, al estilo casero",
+          "precio": 21400,
+          "etiquetas": [
+            "Tapeo"
+          ]
+        },
+        {
+          "id": "provoleta",
+          "nombre": "Provoleta",
+          "descripcion": "Fundida con criolla, rúcula y tomates secos",
+          "precio": 25000,
+          "etiquetas": [
+            "Tapeo"
+          ]
+        },
+        {
+          "id": "rabas",
+          "nombre": "Rabas",
+          "descripcion": "",
+          "precio": 33500,
+          "etiquetas": [
+            "Tapeo"
+          ]
+        },
+        {
+          "id": "sorrentinos",
+          "nombre": "Sorrentinos fritos de jamón y queso",
+          "descripcion": "Con pesto patagónico",
+          "precio": 23000,
+          "etiquetas": [
+            "Tapeo"
+          ]
+        },
+        {
+          "id": "tabla",
+          "nombre": "Tabla para 2",
+          "descripcion": "Selección de fiambres, tapeo y escabeches",
+          "precio": 44200,
+          "etiquetas": [
+            "Tapeo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizzas",
+      "nombre": "Pizzas 8 porciones",
+      "descripcion": "",
+      "items": [
+        {
+          "id": "cuatro-quesos",
+          "nombre": "4 quesos",
+          "descripcion": "Blend de muzza, azul, provolone y pategrás",
+          "precio": 32800,
+          "etiquetas": [
+            "Pizzas 8 porciones"
+          ]
+        },
+        {
+          "id": "especial",
+          "nombre": "Especial",
+          "descripcion": "Con muzza, jamón y morrones",
+          "precio": 29700,
+          "etiquetas": [
+            "Pizzas 8 porciones"
+          ]
+        },
+        {
+          "id": "fugazetta",
+          "nombre": "Fugazetta",
+          "descripcion": "Con muzza, cebolla caramelizada y queso brie",
+          "precio": 29500,
+          "etiquetas": [
+            "Pizzas 8 porciones"
+          ]
+        },
+        {
+          "id": "hongos",
+          "nombre": "Hongos",
+          "descripcion": "Con muzza y hongos de estación",
+          "precio": 31000,
+          "etiquetas": [
+            "Pizzas 8 porciones"
+          ]
+        },
+        {
+          "id": "crudo-rucula",
+          "nombre": "Jamón crudo y rúcula",
+          "descripcion": "Fresco y clásico",
+          "precio": 34000,
+          "etiquetas": [
+            "Pizzas 8 porciones"
+          ]
+        },
+        {
+          "id": "napolitana",
+          "nombre": "Napolitana",
+          "descripcion": "Con muzza, tomate y aceite de ajo",
+          "precio": 27800,
+          "etiquetas": [
+            "Pizzas 8 porciones"
+          ]
+        },
+        {
+          "id": "palmitos",
+          "nombre": "Palmitos",
+          "descripcion": "Con muzza, jamón, palmitos y salsa golf",
+          "precio": 34000,
+          "etiquetas": [
+            "Pizzas 8 porciones"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "postres",
+      "nombre": "Postres",
+      "descripcion": "",
+      "items": [
+        {
+          "id": "copa",
+          "nombre": "Copa helada",
+          "descripcion": "Variedad de sabores",
+          "precio": 15900,
+          "etiquetas": [
+            "Postres"
+          ]
+        },
+        {
+          "id": "don-pedro",
+          "nombre": "Don Pedro",
+          "descripcion": "Helado con whisky y nueces",
+          "precio": 18400,
+          "etiquetas": [
+            "Postres"
+          ]
+        },
+        {
+          "id": "flan",
+          "nombre": "Flan casero",
+          "descripcion": "Con dulce de leche o crema",
+          "precio": 16100,
+          "etiquetas": [
+            "Postres"
+          ]
+        },
+        {
+          "id": "strudel",
+          "nombre": "Strudel de manzana",
+          "descripcion": "Servido con helado de pistacho",
+          "precio": 15100,
+          "etiquetas": [
+            "Postres"
+          ]
+        },
+        {
+          "id": "tiramizu",
+          "nombre": "Tiramisú",
+          "descripcion": "Clásico italiano con cacao",
+          "precio": 15400,
+          "etiquetas": [
+            "Postres"
+          ]
+        },
+        {
+          "id": "tortilla-peras",
+          "nombre": "Tortilla de peras al ron",
+          "descripcion": "Con helado de americana",
+          "precio": 16500,
+          "etiquetas": [
+            "Postres"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "principales",
+      "nombre": "Principales",
+      "descripcion": "",
+      "items": [
+        {
+          "id": "bondiola",
+          "nombre": "Bondiola al dijon",
+          "descripcion": "Coronada con peras y manzanas glaseadas",
+          "precio": 38700,
+          "etiquetas": [
+            "Principales"
+          ]
+        },
+        {
+          "id": "chow-mein-carne",
+          "nombre": "Chow mein de carne (cordón de lomo)",
+          "descripcion": "Salteado al wok con sabor oriental",
+          "precio": 44100,
+          "etiquetas": [
+            "Principales"
+          ]
+        },
+        {
+          "id": "chow-mein-pollo",
+          "nombre": "Chow mein de pollo",
+          "descripcion": "Salteado al wok con sabor oriental",
+          "precio": 39900,
+          "etiquetas": [
+            "Principales"
+          ]
+        },
+        {
+          "id": "chow-mein-vegetales",
+          "nombre": "Chow mein de vegetales",
+          "descripcion": "Salteado al wok con sabor oriental",
+          "precio": 33000,
+          "etiquetas": [
+            "Principales"
+          ]
+        },
+        {
+          "id": "pollo",
+          "nombre": "Cuarto de pollo relleno",
+          "descripcion": "Sobre puré suave de zanahoria",
+          "precio": 34500,
+          "etiquetas": [
+            "Principales"
+          ]
+        },
+        {
+          "id": "entrana",
+          "nombre": "Entraña grillada",
+          "descripcion": "Con papas pai crocantes y chimi ahumado",
+          "precio": 43700,
+          "etiquetas": [
+            "Principales"
+          ]
+        },
+        {
+          "id": "milanesa-pollo",
+          "nombre": "Milanesa de pollo a caballo",
+          "descripcion": "Con papas fritas doradas y huevo a la plancha",
+          "precio": 28400,
+          "etiquetas": [
+            "Principales"
+          ]
+        },
+        {
+          "id": "milanesa-ternera",
+          "nombre": "Milanesa de ternera a caballo",
+          "descripcion": "Con papas fritas doradas y huevo a la plancha",
+          "precio": 32100,
+          "etiquetas": [
+            "Principales"
+          ]
+        },
+        {
+          "id": "ojo-bife",
+          "nombre": "Ojo de bife",
+          "descripcion": "Con papas rotas al romero y chimi ahumado",
+          "precio": 49900,
+          "etiquetas": [
+            "Principales"
+          ]
+        },
+        {
+          "id": "rib-cerdo",
+          "nombre": "Ribs de cerdo a la barbacoa",
+          "descripcion": "Bañado en salsa BBQ, con batatas fritas, miel y merkén",
+          "precio": 39600,
+          "etiquetas": [
+            "Principales"
+          ]
+        },
+        {
+          "id": "salmon",
+          "nombre": "Salmón grille",
+          "descripcion": "Junto a salsa cítrica y papas noisette gratinadas",
+          "precio": 60300,
+          "etiquetas": [
+            "Principales"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sandwiches",
+      "nombre": "Sandwichería",
+      "descripcion": "",
+      "items": [
+        {
+          "id": "cerdo",
+          "nombre": "Cerdo bondiolita",
+          "descripcion": "Con rúcula, chucrut, huevo y papas pai",
+          "precio": 32000,
+          "etiquetas": [
+            "Sandwichería"
+          ]
+        },
+        {
+          "id": "hamburguesa",
+          "nombre": "Hamburguesa clásica",
+          "descripcion": "Doble medallón de carne, bacon crocante, lechuga, tomate, huevo y queso fundido",
+          "precio": 28000,
+          "etiquetas": [
+            "Sandwichería"
+          ]
+        },
+        {
+          "id": "lomo",
+          "nombre": "Lomo",
+          "descripcion": "Con lechuga fresca, tomates, huevo, jamón y queso",
+          "precio": 37500,
+          "etiquetas": [
+            "Sandwichería"
+          ]
+        },
+        {
+          "id": "ojo-bife-sandwich",
+          "nombre": "Ojo de bife",
+          "descripcion": "Con provolone fundido, palta, tomates frescos y cebolla morada",
+          "precio": 39900,
+          "etiquetas": [
+            "Sandwichería"
+          ]
+        },
+        {
+          "id": "pollo-crespy",
+          "nombre": "Pollo crispy",
+          "descripcion": "Con guacamole casero, lechuga, tomates secos y queso",
+          "precio": 33800,
+          "etiquetas": [
+            "Sandwichería"
+          ]
+        },
+        {
+          "id": "vegetariano",
+          "nombre": "Vegetariano",
+          "descripcion": "Con pan integral, queso, repollo morado/blanco, zanahoria, palta y huevo duro",
+          "precio": 28000,
+          "etiquetas": [
+            "Sandwichería"
           ]
         }
       ]

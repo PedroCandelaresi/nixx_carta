@@ -1,0 +1,9 @@
+        {
+          "id": "tomahowk",
+          "nombre": "Tomahowk",
+          "descripcion": "Servido con papas españolas, cebolla y morrones caramelizados a caballo, salsa criolla (ideal para compartir)",
+          "precio": 89900,
+          "etiquetas": [
+            "Principales"
+          ]
+        }
