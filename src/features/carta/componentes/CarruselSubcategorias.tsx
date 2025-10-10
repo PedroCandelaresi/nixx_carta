@@ -9,7 +9,6 @@ import {
   useMemo,
   useRef,
   useState,
-  type ReactNode,
 } from 'react';
 
 import { clsx } from 'clsx';
@@ -41,14 +40,6 @@ const logosSubcategorias: Record<string, { src: string; alt: string; marcaAgua?:
 // Retardo para actualizar el título visible del carrusel
 // Ajustado para suavizar el cambio al paginar y al deslizar
 const DEBOUNCE_TITULO_MS = 200;
-
-const scrollToTopOfPage = () => {
-  if (typeof window === 'undefined') {
-    return;
-  }
-
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-};
 
 export function CarruselSubcategorias({ tituloCategoria, subcategorias, familiaTitulo }: CarruselSubcategoriasProps) {
   const contenedorRef = useRef<HTMLDivElement>(null);
@@ -193,19 +184,6 @@ export function CarruselSubcategorias({ tituloCategoria, subcategorias, familiaT
     elemento.addEventListener('scroll', manejarScroll, { passive: true });
     return () => elemento.removeEventListener('scroll', manejarScroll);
   }, [actualizarEstadoYActivo]);
-
-  const indicePrevioRef = useRef(indiceActivo);
-
-  useEffect(() => {
-    const previo = indicePrevioRef.current;
-    if (previo !== indiceActivo) {
-      const esDispositivoTactil = typeof window !== 'undefined' && window.matchMedia('(pointer: coarse)').matches;
-      if (!esDispositivoTactil) {
-        scrollToTopOfPage();
-      }
-    }
-    indicePrevioRef.current = indiceActivo;
-  }, [indiceActivo]);
 
   const subcategoriaVisible = subcategorias[indiceVisible] ?? subcategorias[indiceActivo] ?? subcategorias[0];
   const tituloSubcategoriaTexto = subcategoriaVisible?.nombre ?? tituloCategoria;
