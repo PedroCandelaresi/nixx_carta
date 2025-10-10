@@ -600,6 +600,36 @@
                 "Sin alcohol"
               ]
             },
+                        {
+              "id": "schweppes-pomelo",
+              "nombre": "Schweppes Pomelo",
+              "descripcion": "",
+              "precio": 5000,
+              "etiquetas": [
+                "Bebidas",
+                "Sin alcohol"
+              ]
+            },
+            {
+              "id": "schweppes-tonica",
+              "nombre": "Schweppes Tónica",
+              "descripcion": "",
+              "precio": 5000,
+              "etiquetas": [
+                "Bebidas",
+                "Sin alcohol"
+              ]
+            },
+            {
+              "id": "sprite",
+              "nombre": "Sprite",
+              "descripcion": "",
+              "precio": 5000,
+              "etiquetas": [
+                "Bebidas",
+                "Sin alcohol"
+              ]
+            },
             {
               "id": "redbull-green",
               "nombre": "Red Bull Green Edition",
@@ -625,36 +655,6 @@
               "nombre": "Red Bull Sugar Free",
               "descripcion": "",
               "precio": 8000,
-              "etiquetas": [
-                "Bebidas",
-                "Sin alcohol"
-              ]
-            },
-            {
-              "id": "schweppes-pomelo",
-              "nombre": "Schweppes Pomelo",
-              "descripcion": "",
-              "precio": 5000,
-              "etiquetas": [
-                "Bebidas",
-                "Sin alcohol"
-              ]
-            },
-            {
-              "id": "schweppes-tonica",
-              "nombre": "Schweppes Tónica",
-              "descripcion": "",
-              "precio": 5000,
-              "etiquetas": [
-                "Bebidas",
-                "Sin alcohol"
-              ]
-            },
-            {
-              "id": "sprite",
-              "nombre": "Sprite",
-              "descripcion": "",
-              "precio": 5000,
               "etiquetas": [
                 "Bebidas",
                 "Sin alcohol"
