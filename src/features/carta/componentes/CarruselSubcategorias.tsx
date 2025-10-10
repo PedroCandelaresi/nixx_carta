@@ -205,47 +205,9 @@ export function CarruselSubcategorias({ tituloCategoria, subcategorias, familiaT
   }, [indiceActivo]);
 
   const subcategoriaVisible = subcategorias[indiceVisible] ?? subcategorias[indiceActivo] ?? subcategorias[0];
-  const logoSubcategoria = subcategoriaVisible ? logosSubcategorias[subcategoriaVisible.id] : undefined;
   const tituloSubcategoriaTexto = subcategoriaVisible?.nombre ?? tituloCategoria;
   const logosParaPreload = useMemo(() => Object.values(logosSubcategorias), []);
-  const tituloSubcategoriaRender = useMemo(() => {
-    if (!logoSubcategoria) {
-      return tituloSubcategoriaTexto;
-    }
-
-    const partes = tituloSubcategoriaTexto.split(/red bull/i);
-
-    if (partes.length !== 2) {
-      return tituloSubcategoriaTexto;
-    }
-
-    const [antesSinTrim, despuesSinTrim] = partes;
-    const antes = antesSinTrim.trimEnd();
-    const despues = despuesSinTrim.trimStart();
-
-    return (
-      <span className="flex items-center justify-center gap-2">
-        {antes.length > 0 && (
-          <span className="pr-2">
-            {antes}
-          </span>
-        )}
-        <Image
-          src={logoSubcategoria.src}
-          alt={logoSubcategoria.alt}
-          width={148}
-          height={44}
-          priority
-          className="h-8 w-auto select-none object-contain sm:h-9"
-        />
-        {despues.length > 0 && (
-          <span className="pl-2">
-            {despues}
-          </span>
-        )}
-      </span>
-    );
-  }, [logoSubcategoria, tituloSubcategoriaTexto]);
+  const tituloSubcategoriaRender = tituloSubcategoriaTexto;
   const progreso = useMemo(() => {
     if (subcategorias.length === 0) {
       return 0;
