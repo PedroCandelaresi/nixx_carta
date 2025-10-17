@@ -730,6 +730,46 @@
                 "Sin alcohol"
               ]
             },
+                        {
+              "id": "aquarius-manzana",
+              "nombre": "Aquarius Manzana",
+              "descripcion": "",
+              "precio": 5000,
+              "etiquetas": [
+                "Bebidas",
+                "Sin alcohol"
+              ]
+            },
+                                    {
+              "id": "aquarius-naranja",
+              "nombre": "Aquarius Naranja",
+              "descripcion": "",
+              "precio": 5000,
+              "etiquetas": [
+                "Bebidas",
+                "Sin alcohol"
+              ]
+            },
+                                    {
+              "id": "aquarius-pera",
+              "nombre": "Aquarius Pera",
+              "descripcion": "",
+              "precio": 5000,
+              "etiquetas": [
+                "Bebidas",
+                "Sin alcohol"
+              ]
+            },
+                                    {
+              "id": "aquarius-pomelo",
+              "nombre": "Aquarius Pomelo",
+              "descripcion": "",
+              "precio": 5000,
+              "etiquetas": [
+                "Bebidas",
+                "Sin alcohol"
+              ]
+            },
             {
               "id": "redbull-green",
               "nombre": "Red Bull Green Edition",
