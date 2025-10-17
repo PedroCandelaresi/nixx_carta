@@ -104,6 +104,39 @@
           ]
         },
         {
+          "id": "tragos_cream",
+          "nombre": "Tragos Cream",
+          "items": [
+            {
+              "id": "baileys_martini",
+              "nombre": "Baileys Martini",
+              "descripcion": "Vodka, licor de café, almíbar.",
+              "precio": 20000,
+              "etiquetas": [
+                "Tragos Cream"
+              ]
+            },
+            {
+              "id": "cream_nixx",
+              "nombre": "Cream Nixx",
+              "descripcion": "Baileys, ron, Franchelico.",
+              "precio": 20000,
+              "etiquetas": [
+                "Tragos Cream"
+              ]
+            },
+            {
+              "id": "dubai",
+              "nombre": "Dubai",
+              "descripcion": "Ron, Apricot Brandy, helado de pistacho, mango, crema.",
+              "precio": 20000,
+              "etiquetas": [
+                "Tragos Cream"
+              ]
+            }
+          ]
+        },
+        {
           "id": "clasicos",
           "nombre": "Clásicos",
           "descripcion": "Coctelería fundamental",
