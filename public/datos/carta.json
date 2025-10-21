@@ -1648,8 +1648,8 @@
           ]
         },
                 {
-          "id": "rol-cordero",
-          "nombre": "Rol de cordero",
+          "id": "roll-cordero",
+          "nombre": "Roll de cordero",
           "descripcion": "En espejo de salsa de hongos con verduras de estación.",
           "precio": 48000,
           "etiquetas": [
