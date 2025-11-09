@@ -730,7 +730,7 @@
                 "Sin alcohol"
               ]
             },
-                        {
+            {
               "id": "aquarius-manzana",
               "nombre": "Aquarius Manzana",
               "descripcion": "",
@@ -740,7 +740,7 @@
                 "Sin alcohol"
               ]
             },
-                                    {
+            {
               "id": "aquarius-naranja",
               "nombre": "Aquarius Naranja",
               "descripcion": "",
@@ -750,7 +750,7 @@
                 "Sin alcohol"
               ]
             },
-                                    {
+            {
               "id": "aquarius-pera",
               "nombre": "Aquarius Pera",
               "descripcion": "",
@@ -760,7 +760,7 @@
                 "Sin alcohol"
               ]
             },
-                                    {
+            {
               "id": "aquarius-pomelo",
               "nombre": "Aquarius Pomelo",
               "descripcion": "",
@@ -1647,7 +1647,7 @@
             "Principales"
           ]
         },
-                {
+        {
           "id": "roll-cordero",
           "nombre": "Roll de cordero",
           "descripcion": "En espejo de salsa de hongos con verduras de estación.",
@@ -1661,6 +1661,15 @@
           "nombre": "Salmón grille",
           "descripcion": "Junto a salsa cítrica y papas noisette gratinadas",
           "precio": 48000,
+          "etiquetas": [
+            "Principales"
+          ]
+        },
+        {
+          "id": "tomahowk",
+          "nombre": "Tomahowk",
+          "descripcion": "Servido con papas españolas, cebolla y morrones caramelizados a caballo, salsa criolla (ideal para compartir)",
+          "precio": 89900,
           "etiquetas": [
             "Principales"
           ]

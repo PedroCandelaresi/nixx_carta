@@ -25,5 +25,6 @@ jobs:
           docker run -d \
             --name nixx-front \
             --restart unless-stopped \
-            -p 127.0.0.1:3300:3300 \
+            --env-file .env \
+            -p 127.0.0.1:3300:3000 \
             nixx-front:latest
