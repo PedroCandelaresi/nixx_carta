@@ -3,6 +3,8 @@ import type { Metadata } from 'next';
 import { CartaInteractiva } from '@/features/carta/componentes/CartaInteractiva';
 import { obtenerCarta } from '@/features/carta/servicios/obtenerCarta';
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: 'Nixx resto',
 };

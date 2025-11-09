@@ -1,6 +1,3 @@
-import { readFile } from 'node:fs/promises';
-import { join } from 'node:path';
-
 import type { CartaDigital, CategoriaCarta, ItemCarta, SubcategoriaCarta } from '@/features/carta/interfaces/carta';
 
 type GqlItem = {
