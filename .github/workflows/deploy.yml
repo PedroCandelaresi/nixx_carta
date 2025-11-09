@@ -26,5 +26,5 @@ jobs:
             --name nixx-front \
             --restart unless-stopped \
             --env-file /home/nixx/config/frontend-carta/.env \
-            -p 127.0.0.1:3300:3000 \
+            -p 127.0.0.1:3300:3300 \
             nixx-front:latest
